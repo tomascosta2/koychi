@@ -72,10 +72,9 @@ body {
 	position: absolute;
 	top: -30px;
 	background:
-	repeating-conic-gradient(
-		#000 0% 25%, 
-		#fff 0% 50%
-	  );
-	background-size: 100% 2px, 16px 16px;
-	background-repeat: repeat-x, repeat;
+		linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000),
+		linear-gradient(45deg, #fff 25%, #000 25%, #000 75%, #fff 75%, #fff);
+	background-size: 100% 2px, 16px 16px, 16px 16px;
+	background-position: top, 0 0, 8px 8px;
+	background-repeat: repeat-x, repeat, repeat;
 }
