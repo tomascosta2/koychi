@@ -9,7 +9,7 @@ $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 		<!-- Logo + menú -->
 		<div class="flex items-center justify-between">
 			<h1>
-				<img class="0 h-[73px] w-[309px] object-fit" src="<?php echo $logo_url ?>" alt="Koychi">
+				<img class="0 h-[73px] w-[200px] object-contain" src="<?php echo $logo_url ?>" alt="Koychi">
 			</h1>
 
 			<!-- Botón hamburguesa (solo visible en mobile) -->
