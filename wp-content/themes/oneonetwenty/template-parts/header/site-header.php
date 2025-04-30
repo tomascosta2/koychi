@@ -27,7 +27,7 @@ $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 					'theme_location' => 'primary',
 					'container' => false,
 					'menu_class' => 'flex flex-col md:flex-row items-center gap-4',
-					'link_before' => '<span class="text-[#060082]">',
+					'link_before' => '<span class="uppercase text-white font-medium">',
 					'link_after' => '</span>',
 					'fallback_cb' => false,
 				));
