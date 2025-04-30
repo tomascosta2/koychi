@@ -48,3 +48,14 @@ body {
 .ky-hero .swiper-pagination-bullet-active {
 	background-color: white;
 }
+
+/* Footer */
+.tcp-footer {
+	padding: 40px 0;
+	color: #FFF;
+	background-color: #111;
+}
+.tcp-footer__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
