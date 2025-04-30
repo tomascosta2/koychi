@@ -10,9 +10,9 @@
 					<div class="flex items-end justify-center h-full">
 						<div class="bg-white py-4 px-8 rounded-[15px] h-fit relative">
 							<img class="hidden md:block absolute -left-[40px] -bottom-[25px] -rotate-25"
-								src="/images/koychi-element-1.png" alt="Koychi K">
+								src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-1.png" alt="Koychi K">
 							<img class="absolute size-[50px] md:size-[115px] -top-[20px] md:-right-[57.5px] -right-[10px] md:-top-[57.5px]"
-								src="/images/koychi-element-2.png" alt="Koychi K">
+								src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-2.png" alt="Koychi K">
 							<h2 class="ky-hero__title font-bold uppercase text-[32px] md:text-[60px] leading-[79%] text-center">
 								Comida coreana
 								<br>
