@@ -66,16 +66,18 @@ body {
 
 .tcp-footer::before {
 	content: '';
+	display: block;
 	width: 100%;
 	height: 30px;
+	position: absolute;
+	top: -30px;
 	background:
+		linear-gradient(to bottom, #00aaff 2px, transparent 2px),
 		repeating-linear-gradient(90deg,
 			#000 0,
 			#000 4px,
 			#fff 4px,
-			#fff 8px),
-		linear-gradient(to bottom, #00aaff 1px, transparent 1px);
-	/* línea azul */
-	background-size: 100% 16px;
-	background-repeat: repeat-x;
+			#fff 8px);
+	background-size: 100% 100%, 100% 100%;
+	background-repeat: no-repeat, repeat-x;
 }
