@@ -4,7 +4,7 @@ $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 ?>
 
 <!-- Header -->
-<header class="py-[24px] fixed top-0 bg-black/30 w-full z-50">
+<header class="py-4 md:py-[24px] fixed top-0 bg-black/30 w-full z-50">
 	<div class="tcp-container">
 		<!-- Logo + menú -->
 		<div class="flex items-center justify-between">
