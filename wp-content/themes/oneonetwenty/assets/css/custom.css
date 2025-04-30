@@ -83,3 +83,9 @@ body {
     background-position: top, 11px 7px, 8px 8px;
     background-repeat: repeat-x, repeat, repeat;
 }
+
+@media (max-width: 500px) {
+	.tcp-footer__social {
+		justify-content: center !important;
+	}
+}
