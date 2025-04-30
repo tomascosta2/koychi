@@ -1,0 +1,21 @@
+name: koychi
+recipe: wordpress
+proxy:
+  appserver:
+    - koychi.local
+config:
+  php: '8.0'
+  via: apache
+  webroot: .
+  xdebug: true
+services:
+  database:
+    portforward: true
+    type: mysql
+    creds:
+      user: koychidb
+      password: koychidb
+      database: koychidb
+  pma:
+    type: phpmyadmin
+    hosts: database
