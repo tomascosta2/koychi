@@ -14,7 +14,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 			<div class="tcp-footer__wrapper">
 				<?php dynamic_sidebar( 'sidebar-1' ); ?>
 			</div>
-			<p class="text-[14px] text-white/80 text-center mt-6">© 2025 KOYCHI. Todos los derechos reservados. Sitio Web desarrollado por ABLA Factoría Creativa</p>
+			<p class="text-[14px] text-white/80 text-center mt-8">© 2025 KOYCHI. Todos los derechos reservados. Sitio Web desarrollado por ABLA Factoría Creativa</p>
 		</div>
 	</footer>
 
