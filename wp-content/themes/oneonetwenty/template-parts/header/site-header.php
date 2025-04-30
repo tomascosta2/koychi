@@ -4,16 +4,16 @@ $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 ?>
 
 <!-- Header -->
-<header class="py-2">
+<header class="py-[24px] fixed top-0 bg-black/30 w-full z-50">
 	<div class="tcp-container">
 		<!-- Logo + menú -->
-		<div class="flex items-center justify-between mt-2">
+		<div class="flex items-center justify-between">
 			<h1>
-				<img class="h-[63px] w-[309px] object-fit" src="<?php echo $logo_url ?>" alt="Koychi">
+				<img class="0 h-[73px] w-[309px] object-fit" src="<?php echo $logo_url ?>" alt="Koychi">
 			</h1>
 
 			<!-- Botón hamburguesa (solo visible en mobile) -->
-			<button id="menu-btn" class="md:hidden text-[#060082] focus:outline-none" aria-label="Abrir menú">
+			<button id="menu-btn" class="md:hidden text-[#FF0000] focus:outline-none" aria-label="Abrir menú">
 				<svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
 					<path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
 				</svg>
@@ -21,7 +21,7 @@ $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 
 			<!-- Menú de navegación -->
 			<nav id="menu"
-				class="hidden z-50 flex-col gap-4 absolute top-[107px] left-0 w-full bg-white p-4 md:static md:top-0 flex md:flex md:flex-row md:items-center md:gap-4 md:w-auto">
+				class="hidden z-50 flex-col gap-4 absolute top-[107px] left-0 w-ful p-4 md:static md:top-0 flex md:flex md:flex-row md:items-center md:gap-4 md:w-auto">
 				<?php
 				wp_nav_menu(array(
 					'theme_location' => 'primary',
