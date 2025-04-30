@@ -72,7 +72,6 @@ body {
 	position: absolute;
 	top: -30px;
 	background:
-		linear-gradient(to bottom, #00aaff 2px, transparent 2px),
 		repeating-linear-gradient(90deg,
 			#000 0,
 			#000 4px,
