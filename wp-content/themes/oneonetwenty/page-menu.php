@@ -7,7 +7,7 @@ $pollo_frito_coreano_fields = get_field('pollo_frito_coreano');
 get_header(); ?>
 
 <section class="menu-hero">
-	<img class="rounded-bl-[20px] rounded-br-[20px]" src="<?php echo $hero_fields['portada']['url'] ?>" alt="Koychi">
+	<img class="rounded-bl-[20px] rounded-br-[20px] w-full max-h-[500px] object-cover" src="<?php echo $hero_fields['portada']['url'] ?>" alt="Koychi">
 	<div class="mt-[50px]">
 		<p class="text-center font-black text-[60px] text-[#FF0000] uppercase leading-[110%]"><?php echo $hero_fields['arriba_del_titulo'] ?></p>
 		<h1 class="text-center font-semibold leading-[110%] text-[60px] uppercase"><?php echo $hero_fields['titulo'] ?></h1>
@@ -71,14 +71,18 @@ get_header(); ?>
 					</div>
 				</div>
 				<?php 
-				if ($index === 3 && !empty($pollo_frito_coreano_fields['imagen_intermedia'])): ?>
+				if ($index === 5 && !empty($pollo_frito_coreano_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
 							src="<?php echo $pollo_frito_coreano_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $pollo_frito_coreano_fields['imagen_intermedia']['url'] ?>">
 					</div>
 				<?php 
-				endif; 
+				elseif ($index == 10 && !empty($pollo_frito_coreano_fields['imagen_entrelinea'])) : ?>
+					<div class="row-span-2">
+						<img src="<?php echo $pollo_frito_coreano_fields['imagen_entrelinea']['url'] ?>" alt="">
+					</div>
+				<?php endif;
 			endforeach; ?>
 		</div>
 	</div>
