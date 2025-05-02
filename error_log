@@ -1,0 +1,1 @@
+[01-May-2025 00:02:55 UTC] Error de evento de reprogramación de cron para el hook: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se pudo guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
