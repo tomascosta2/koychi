@@ -1,30 +1,35 @@
-<?php get_header(); ?>
+<?php 
+
+$hero_fields = get_field('hero');
+$banners_fields = get_field('banners');
+
+get_header(); ?>
 
 <!-- Carrusel -->
 <section class="ky-hero">
 	<div class="swiper w-full h-[500px] relative">
 		<div class="swiper-wrapper max-h-full">
 			<!-- Slide 1 -->
-			<div class="swiper-slide bg-[url('')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
-				<div class="tcp-container h-full">
-					<div class="flex items-end justify-center h-full">
-						<div class="bg-white py-4 px-8 rounded-[15px] h-fit relative">
-							<img class="hidden md:block absolute -left-[40px] -bottom-[25px] -rotate-25"
-								src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-1.png" alt="Koychi K">
-							<img class="absolute size-[50px] md:size-[115px] -top-[20px] md:-right-[57.5px] -right-[10px] md:-top-[57.5px]"
-								src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-2.png" alt="Koychi K">
-							<h2 class="ky-hero__title font-bold uppercase text-[32px] md:text-[60px] leading-[79%] text-center">
-								Comida coreana
-								<br>
-								<strong>que rompe reglas</strong>
-							</h2>
-							<p class="text-[20px] mt-2 md:text-[25px] leading-[110%] text-center uppercase">
-								Un sabor de otro mundo... <strong>¡Literal!</strong>
-							</p>
+			<?php foreach ($hero_fields['slides'] as $slide) : ?>
+				<div class="swiper-slide bg-[url('<?php echo $slide['imagen']['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
+					<div class="tcp-container h-full">
+						<div class="flex items-end justify-center h-full">
+							<div class="bg-white py-4 px-8 rounded-[15px] h-fit relative">
+								<img class="hidden md:block absolute -left-[40px] -bottom-[25px] -rotate-25"
+									src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-1.png" alt="Koychi K">
+								<img class="absolute size-[50px] md:size-[115px] -top-[20px] md:-right-[57.5px] -right-[10px] md:-top-[57.5px]"
+									src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-2.png" alt="Koychi K">
+								<h2 class="ky-hero__title font-bold uppercase text-[32px] md:text-[60px] leading-[79%] text-center">
+									<?php echo $slide['titulo'] ?>
+								</h2>
+								<p class="text-[20px] mt-2 md:text-[25px] leading-[110%] text-center uppercase">
+								<?php echo strip_tags($slide['bajada'], '<strong>') ?>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			<?php endforeach; ?>
 
 		</div>
 
@@ -38,8 +43,12 @@
 <!-- Banners -->
 <section class="ky-banners">
 	<div class="grid md:grid-cols-2">
-		<img class="h-[280px] w-full bg-gray-300 md:rounded-br-[20px] md:rounded-bl-[20px]" src="" alt="">
-		<img class="h-[280px] w-full bg-gray-300 md:rounded-br-[20px] md:rounded-bl-[20px]" src="" alt="">
+		<a href="<?php echo $banners_fields['enlace_banner_1'] ?>">
+			<img class="h-[280px] w-full bg-gray-300 md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_1']['url'] ?>" alt="">
+		</a>
+		<a href="<?php echo $banners_fields['enlace_banner_2'] ?>">
+			<img class="h-[280px] w-full bg-gray-300 md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_2']['url'] ?>" alt="">
+		</a>
 	</div>
 </section>
 
