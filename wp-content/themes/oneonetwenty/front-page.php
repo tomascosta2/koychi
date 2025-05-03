@@ -81,9 +81,9 @@ get_header(); ?>
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
 		<div class="tcp-container">
 			<div class="flex items-center justify-between gap-2 md:gap-8">
-				<img class="flex-1/3 max-w-[30%]" src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
-				<img class="flex-1/3 max-w-[30%]" src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
-				<img class="flex-1/3 max-w-[30%]" src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
+				<img class="flex-1/3 max-w-[25%]" src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
+				<img class="flex-1/3 max-w-[40%]" src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
+				<img class="flex-1/3 max-w-[25%]" src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
 			</div>
 		</div>
 	</div>
