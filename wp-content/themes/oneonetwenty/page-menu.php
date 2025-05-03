@@ -25,7 +25,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $entradas_fields['portada']['url'] ?>" alt="<?php echo $entradas_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($entradas_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -71,7 +71,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $pollo_frito_coreano_fields['portada']['url'] ?>" alt="<?php echo $pollo_frito_coreano_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($pollo_frito_coreano_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -121,7 +121,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $mariscos_fields['portada']['url'] ?>" alt="<?php echo $mariscos_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($mariscos_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -167,7 +167,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $fideos_fields['portada']['url'] ?>" alt="<?php echo $fideos_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($fideos_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -220,7 +220,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $sopas_fields['portada']['url'] ?>" alt="<?php echo $sopas_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($sopas_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -273,7 +273,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $acompañamientos_fields['portada']['url'] ?>" alt="<?php echo $acompañamientos_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($acompañamientos_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -326,7 +326,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $extras_fields['portada']['url'] ?>" alt="<?php echo $extras_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($extras_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -364,7 +364,7 @@ get_header(); ?>
 <section class="mt-[50px]">
 	<div class="tcp-container">
 		<img src="<?php echo $bebidas_fields['portada']['url'] ?>" alt="<?php echo $bebidas_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($bebidas_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
@@ -417,7 +417,7 @@ get_header(); ?>
 <section class="mt-[50px] pb-[60px]">
 	<div class="tcp-container">
 		<img src="<?php echo $postres_fields['portada']['url'] ?>" alt="<?php echo $postres_fields['portada']['alt'] ?>">
-		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
+		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($postres_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card rounded-[20px] border border-dashed p-[22px] relative">
 					<img class="absolute h-[50px] -top-[25px] right-[20px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
