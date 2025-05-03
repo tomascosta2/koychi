@@ -103,6 +103,17 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -138,6 +149,17 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -180,6 +202,17 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -222,6 +255,17 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -264,6 +308,17 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -291,6 +346,17 @@ get_header(); ?>
 				<?php 
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
@@ -333,6 +399,17 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($entradas_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="#!" class="uppercase flex gap-4 justify-center items-center mx-auto">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						¡pide online!
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
