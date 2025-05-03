@@ -46,9 +46,13 @@ body {
 .swiper-pagination-bullet {
 	background-color: #FFFFFFEE !important;
 }
-
 .ky-hero .swiper-pagination-bullet-active {
 	background-color: white;
+}
+
+/* Call to action */
+.cta-title strong {
+	color: red;
 }
 
 /* Footer */
