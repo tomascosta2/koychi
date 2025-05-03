@@ -81,9 +81,9 @@ get_header(); ?>
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
 		<div class="tcp-container">
 			<div class="flex items-center justify-between">
-				<img src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
-				<img src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
-				<img src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
+				<img class="flex-1/3" src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
+				<img class="flex-1/3" src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
+				<img class="flex-1/3" src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
 			</div>
 		</div>
 	</div>
@@ -93,25 +93,25 @@ get_header(); ?>
 	<div class="tcp-container">
 		<div class="grid md:grid-cols-3 md:grid-rows-4 gap-4">
 			<div class="md:col-span-3">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_1']['url'] ?>" alt="<?php echo $grilla_fields['foto_1']['alt'] ?>">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_1']['url'] ?>" alt="<?php echo $grilla_fields['foto_1']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_2']['url'] ?>" alt="<?php echo $grilla_fields['foto_2']['alt'] ?>">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_2']['url'] ?>" alt="<?php echo $grilla_fields['foto_2']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_3']['url'] ?>" alt="<?php echo $grilla_fields['foto_3']['alt'] ?>">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_3']['url'] ?>" alt="<?php echo $grilla_fields['foto_3']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_4']['url'] ?>" alt="<?php echo $grilla_fields['foto_4']['alt'] ?>">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_4']['url'] ?>" alt="<?php echo $grilla_fields['foto_4']['alt'] ?>">
 			</div>
 			<div class="md:col-span-2 md:row-span-2">
-				<img class="bg-gray-300 h-full w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_5']['url'] ?>" alt="<?php echo $grilla_fields['foto_5']['alt'] ?>">
+				<img class="bg-gray-300 h-full w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_5']['url'] ?>" alt="<?php echo $grilla_fields['foto_5']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-3">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_6']['url'] ?>" alt="<?php echo $grilla_fields['foto_6']['alt'] ?>">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_6']['url'] ?>" alt="<?php echo $grilla_fields['foto_6']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-4">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_7']['url'] ?>" alt="<?php echo $grilla_fields['foto_7']['alt'] ?>">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_7']['url'] ?>" alt="<?php echo $grilla_fields['foto_7']['alt'] ?>">
 			</div>
 		</div>
 	</div>
