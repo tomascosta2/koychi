@@ -71,7 +71,7 @@ get_header(); ?>
 <!-- Historia -->
 <section class="ky-historia bg-[#FF0000] rounded-tr-[20px] pt-[40px] rounded-[20px]">
 	<div class="tcp-container">
-		<img class="w-[940px] h-[500px] mx-auto object-contain" src="<?php echo $historia_fields['imagen']['url'] ?>" alt="<?php echo $historia_fields['imagen']['alt'] ?>">
+		<img class="w-[940px] mx-auto object-contain" src="<?php echo $historia_fields['imagen']['url'] ?>" alt="<?php echo $historia_fields['imagen']['alt'] ?>">
 		<p class="text-white text-[22px] md:text-[36px] leading-[110%] text-center">
 			<?php echo strip_tags($historia_fields['texto'], '<br>') ?>
 		</p>
