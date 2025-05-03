@@ -6,7 +6,7 @@ $pollo_frito_coreano_fields = get_field('pollo_frito_coreano');
 $mariscos_fields = get_field('mariscos');
 $fideos_fields = get_field('fideos_y_arroces');
 $sopas_fields = get_field('sopas');
-$acompañamientos_fields = get_field('acompañamientos');
+$acompañamientos_fields = get_field('acompanamientos');
 
 get_header(); ?>
 
