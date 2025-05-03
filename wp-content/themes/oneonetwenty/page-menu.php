@@ -320,7 +320,6 @@ get_header(); ?>
 					</div>
 				<?php endif;
 			endforeach; ?>
-			endforeach; ?>
 		</div>
 	</div>
 </section>
