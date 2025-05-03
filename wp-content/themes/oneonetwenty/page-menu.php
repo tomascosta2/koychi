@@ -17,7 +17,7 @@ get_header(); ?>
 	<img class="rounded-bl-[20px] rounded-br-[20px] w-full max-h-[500px] object-cover" src="<?php echo $hero_fields['portada']['url'] ?>" alt="Koychi">
 	<div class="mt-[50px]">
 		<p class="text-center font-black text-[32px] md:text-[60px] text-[#FF0000] uppercase leading-[110%]"><?php echo $hero_fields['arriba_del_titulo'] ?></p>
-		<h1 class="text-center font-semibold leading-[110%] text-[60px] uppercase"><?php echo $hero_fields['titulo'] ?></h1>
+		<h1 class="text-center font-semibold leading-[110%]  text-[32px] md:text-[60px] uppercase"><?php echo $hero_fields['titulo'] ?></h1>
 	</div>
 </section>
 
