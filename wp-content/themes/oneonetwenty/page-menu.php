@@ -311,7 +311,7 @@ get_header(); ?>
 							alt="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>"
 						/>
 					</div>
-				<?php elseif ($index === 17 && !empty($bebidas_fields['imagen_entrelinea'])): ?>
+				<?php elseif ($index === 18 && !empty($bebidas_fields['imagen_entrelinea'])): ?>
 					<div class="text-center row-span-2">
 						<img 
 							src="<?php echo $bebidas_fields['imagen_entrelinea']['url'] ?>" 
