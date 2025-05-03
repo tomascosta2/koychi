@@ -2,6 +2,9 @@
 
 $hero_fields = get_field('hero');
 $banners_fields = get_field('banners');
+$call_to_action_fields = get_field('call_to_action');
+$historia_fields = get_field('historia');
+$radio_fields = get_field('radio');
 
 get_header(); ?>
 
@@ -11,7 +14,7 @@ get_header(); ?>
 		<div class="swiper-wrapper max-h-full">
 			<!-- Slide 1 -->
 			<?php foreach ($hero_fields['slides'] as $slide) : ?>
-				<div class="swiper-slide bg-[url('<?php echo $slide['imagen']['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
+				<div class="swiper-slide bg-cover bg-[url('<?php echo $slide['imagen']['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
 					<div class="tcp-container h-full">
 						<div class="flex items-end justify-center h-full">
 							<div class="bg-white py-4 px-8 rounded-[15px] h-fit relative">
@@ -44,50 +47,44 @@ get_header(); ?>
 <section class="ky-banners">
 	<div class="grid md:grid-cols-2">
 		<a href="<?php echo $banners_fields['enlace_banner_1'] ?>">
-			<img class="h-[280px] w-full bg-gray-300 md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_1']['url'] ?>" alt="">
+			<img class="h-[280px] w-full bg-gray-300 object-cover md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_1']['url'] ?>" alt="">
 		</a>
 		<a href="<?php echo $banners_fields['enlace_banner_2'] ?>">
-			<img class="h-[280px] w-full bg-gray-300 md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_2']['url'] ?>" alt="">
+			<img class="h-[280px] w-full bg-gray-300 object-cover md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_2']['url'] ?>" alt="">
 		</a>
 	</div>
 </section>
 
-<!-- Hambre? -->
+<!-- call_to_action? -->
 <section class="py-[60px]">
 	<div class="tcp-container">
 		<h1 class="leading-[100%] text-center text-[60px] font-bold uppercase">
-			<strong>¿Hambre?</strong>
-			<br>
-			Te tenemos la solución
+			<strong><?php echo $call_to_action_fields['titulo'] ?></strong>
 		</h1>
-		<img class="w-[800px] h-[690px] mx-auto mt-8 max-w-full bg-gray-300" src="" alt="">
-		<p class="uppercase text-center font-semibold text-[38px] mt-8">¡come rico y olvídate del resto!</p>
-		<a class="ky-btn mt-6" href="#">¡A lo que vine!</a>
+		<img class="w-[800px] h-[690px] mx-auto mt-8 max-w-full" src="<?php echo $call_to_action_fields['imagen']['url'] ?>" alt="">
+		<p class="uppercase text-center font-semibold text-[38px] mt-8"><?php echo strip_tags($call_to_action_fields['bajada']) ?></p>
+		<a class="ky-btn mt-6" href="<?php echo $call_to_action_fields['boton']['url'] ?>"><?php echo $call_to_action_fields['boton']['title'] ?></a>
 	</div>
 </section>
 
 <!-- Historia -->
 <section class="ky-historia bg-[#FF0000] rounded-tr-[20px] pt-[40px] rounded-[20px]">
 	<div class="tcp-container">
-		<img class="w-[940px] h-[500px] mx-auto bg-gray-300" src="" alt="">
+		<img class="w-[940px] h-[500px] mx-auto" src="<?php echo $historia_fields['imagen']['url'] ?>" alt="<?php echo $historia_fields['imagen']['alt'] ?>">
 		<p class="text-white text-[22px] md:text-[36px] leading-[110%] text-center">
-			¿Comida coreana en Chile? Había. Pero no como la que ofrecemos.
-			<br class="md:hidden"><br class="md:hidden">
-			Alguien tenía que hacerlo con actitud, y aprovechamos la oportunidad.
-			Teníamos el fuego encendido, la pasión y un balcón.
-			<br class="md:hidden"><br class="md:hidden">
-			Necesitábamos poner verdadero orden al rubro.
-			Así comenzamos esta historia, y aquí la puedes conocer.
-			<br class="md:hidden"><br class="md:hidden">
-			Spoiler: ¡somos un éxito!
+			<?php echo strip_tags($historia_fields['texto'], '<br>') ?>
 		</p>
 		<a class="ky-btn --secondary mt-6" href="#">¡Lee nuestra historia!</a>
 	</div>
 	<!-- Spotify -->
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
-		<img src="" alt="">
-		<img src="" alt="">
-		<img src="" alt="">
+		<div class="tcp-container">
+			<div class="flex items-center justify-between">
+				<img src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
+				<img src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
+				<img src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
+			</div>
+		</div>
 	</div>
 </section>
 
