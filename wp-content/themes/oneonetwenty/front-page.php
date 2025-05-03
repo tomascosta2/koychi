@@ -5,6 +5,7 @@ $banners_fields = get_field('banners');
 $call_to_action_fields = get_field('call_to_action');
 $historia_fields = get_field('historia');
 $radio_fields = get_field('radio');
+$grilla_fields = get_field('grilla_fotos');
 
 get_header(); ?>
 
@@ -92,25 +93,25 @@ get_header(); ?>
 	<div class="tcp-container">
 		<div class="grid md:grid-cols-3 md:grid-rows-4 gap-4">
 			<div class="md:col-span-3">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_1']['url'] ?>" alt="<?php echo $grilla_fields['foto_1']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_2']['url'] ?>" alt="<?php echo $grilla_fields['foto_2']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_3']['url'] ?>" alt="<?php echo $grilla_fields['foto_3']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_4']['url'] ?>" alt="<?php echo $grilla_fields['foto_4']['alt'] ?>">
 			</div>
 			<div class="md:col-span-2 md:row-span-2">
-				<img class="bg-gray-300 h-full w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-full w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_5']['url'] ?>" alt="<?php echo $grilla_fields['foto_5']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-3">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_6']['url'] ?>" alt="<?php echo $grilla_fields['foto_6']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-4">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="" alt="">
+				<img class="bg-gray-300 h-[380px] w-full rounded-[20px]" src="<?php echo $grilla_fields['foto_7']['url'] ?>" alt="<?php echo $grilla_fields['foto_7']['alt'] ?>">
 			</div>
 		</div>
 	</div>
