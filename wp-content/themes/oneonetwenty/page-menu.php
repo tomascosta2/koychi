@@ -34,9 +34,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[32px] md:text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -80,9 +80,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -130,9 +130,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -176,9 +176,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -229,9 +229,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -282,9 +282,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -335,9 +335,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -373,9 +373,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
@@ -426,9 +426,9 @@ get_header(); ?>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
 							<p class="leading-[95%] text-[25px] mt-2"><?php echo $plato['descripcion'] ?></p>
 						</div>
-						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col">
+						<div class="flex <?php echo $plato['aclaracion'] ? 'justify-between' : 'justify-end' ?> items-center md:flex-row flex-col gap-2 md:gap-0">
 							<?php if ($plato['aclaracion']) : ?>
-								<p class="p-2 rounded-[5px] bg-black text-white text-[20px]"><?php echo $plato['aclaracion'] ?></p>
+								<p class="p-2 rounded-[5px] bg-black text-white md:w-fit w-full text-[16px] md:text-[20px]"><?php echo $plato['aclaracion'] ?></p>
 							<?php endif; ?>
 							<p class="font-black text-[40px] text-[#FF0000]"><?php echo $plato['precio'] ?></p>
 						</div>
