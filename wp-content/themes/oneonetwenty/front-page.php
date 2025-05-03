@@ -48,10 +48,10 @@ get_header(); ?>
 <section class="ky-banners">
 	<div class="grid md:grid-cols-2">
 		<a href="<?php echo $banners_fields['enlace_banner_1'] ?>">
-			<img class="h-[280px] w-full bg-gray-300 object-cover md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_1']['url'] ?>" alt="">
+			<img class="md:h-[280px] h-auto w-full bg-gray-300 object-cover md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_1']['url'] ?>" alt="">
 		</a>
 		<a href="<?php echo $banners_fields['enlace_banner_2'] ?>">
-			<img class="h-[280px] w-full bg-gray-300 object-cover md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_2']['url'] ?>" alt="">
+			<img class="md:h-[280px] h-auto w-full bg-gray-300 object-cover md:rounded-br-[20px] md:rounded-bl-[20px]" src="<?php echo $banners_fields['imagen_banner_2']['url'] ?>" alt="">
 		</a>
 	</div>
 </section>
