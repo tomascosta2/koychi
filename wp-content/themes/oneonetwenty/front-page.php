@@ -71,7 +71,7 @@ get_header(); ?>
 <!-- Historia -->
 <section class="ky-historia bg-[#FF0000] rounded-tr-[20px] pt-[40px] rounded-[20px]">
 	<div class="tcp-container">
-		<img class="w-[940px] h-[500px] mx-auto" src="<?php echo $historia_fields['imagen']['url'] ?>" alt="<?php echo $historia_fields['imagen']['alt'] ?>">
+		<img class="w-[940px] h-[500px] mx-auto object-contain" src="<?php echo $historia_fields['imagen']['url'] ?>" alt="<?php echo $historia_fields['imagen']['alt'] ?>">
 		<p class="text-white text-[22px] md:text-[36px] leading-[110%] text-center">
 			<?php echo strip_tags($historia_fields['texto'], '<br>') ?>
 		</p>
@@ -80,7 +80,7 @@ get_header(); ?>
 	<!-- Spotify -->
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
 		<div class="tcp-container">
-			<div class="flex items-center justify-between">
+			<div class="flex items-center justify-between gap-8">
 				<img class="flex-1/3" src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
 				<img class="flex-1/3" src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
 				<img class="flex-1/3" src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
