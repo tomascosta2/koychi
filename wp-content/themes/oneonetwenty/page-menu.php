@@ -326,7 +326,7 @@ get_header(); ?>
 </section>
 
 <!-- Postres -->
-<section class="mt-[50px]">
+<section class="mt-[50px] pb-[60px]">
 	<div class="tcp-container">
 		<img src="<?php echo $postres_fields['portada']['url'] ?>" alt="<?php echo $postres_fields['portada']['alt'] ?>">
 		<div class="platos-grid grid grid-cols-2 gap-[45px] mt-[50px]">
