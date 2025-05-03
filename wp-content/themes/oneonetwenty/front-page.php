@@ -1,8 +1,4 @@
-<?php 
-
-print_r(get_field('hero'));
-
-get_header(); ?>
+<?php get_header(); ?>
 
 <!-- Carrusel -->
 <section class="ky-hero">
