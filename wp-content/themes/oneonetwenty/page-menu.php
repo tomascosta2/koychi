@@ -147,14 +147,14 @@ get_header(); ?>
 					</div>
 				</div>
 				<?php 
-				if ($index === 4 && !empty($fideos_fields['imagen_intermedia'])): ?>
+				if ($index === 3 && !empty($fideos_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
 							src="<?php echo $fideos_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $fideos_fields['imagen_intermedia']['url'] ?>"
 						/>
 					</div>
-				<?php elseif ($index === 10 && !empty($fideos_fields['imagen_entrelinea'])): ?>
+				<?php elseif ($index === 9 && !empty($fideos_fields['imagen_entrelinea'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
 							src="<?php echo $fideos_fields['imagen_entrelinea']['url'] ?>" 
