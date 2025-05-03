@@ -312,7 +312,7 @@ get_header(); ?>
 						/>
 					</div>
 				<?php elseif ($index === 17 && !empty($bebidas_fields['imagen_entrelinea'])): ?>
-					<div class="text-center">
+					<div class="text-center row-span-2">
 						<img 
 							src="<?php echo $bebidas_fields['imagen_entrelinea']['url'] ?>" 
 							alt="<?php echo $bebidas_fields['imagen_entrelinea']['url'] ?>"
