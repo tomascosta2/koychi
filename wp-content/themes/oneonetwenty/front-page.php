@@ -62,7 +62,7 @@ get_header(); ?>
 		<h1 class="leading-[100%] text-center text-[60px] font-bold uppercase">
 			<strong><?php echo $call_to_action_fields['titulo'] ?></strong>
 		</h1>
-		<img class="w-[800px] h-[690px] mx-auto mt-8 max-w-full" src="<?php echo $call_to_action_fields['imagen']['url'] ?>" alt="">
+		<img class="w-[800px] h-auto object-contain mx-auto mt-8 max-w-full" src="<?php echo $call_to_action_fields['imagen']['url'] ?>" alt="">
 		<p class="uppercase text-center font-semibold text-[38px] mt-8"><?php echo strip_tags($call_to_action_fields['bajada']) ?></p>
 		<a class="ky-btn mt-6" href="<?php echo $call_to_action_fields['boton']['url'] ?>"><?php echo $call_to_action_fields['boton']['title'] ?></a>
 	</div>
