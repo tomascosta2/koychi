@@ -155,7 +155,7 @@ get_header(); ?>
 						/>
 					</div>
 				<?php elseif ($index === 9 && !empty($fideos_fields['imagen_entrelinea'])): ?>
-					<div class="my-8 text-center">
+					<div class="text-center">
 						<img 
 							src="<?php echo $fideos_fields['imagen_entrelinea']['url'] ?>" 
 							alt="<?php echo $fideos_fields['imagen_entrelinea']['url'] ?>"
