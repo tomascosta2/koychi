@@ -18,6 +18,11 @@
 		<p class="text-white text-justify text-[30px] leading-[41px]">
 			<?php echo strip_tags(get_field('texto_3')) ?>
 		</p>
+
+		<h2 class="font-black text-white text-center my-8 text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
+		<p class="text-white text-justify text-[30px] leading-[41px]">
+			<?php echo strip_tags(get_field('texto_4')) ?>
+		</p>
 	</div>
 </section>
 
