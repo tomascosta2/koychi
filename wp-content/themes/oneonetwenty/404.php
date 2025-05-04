@@ -1,15 +1,10 @@
 <?php get_header(); ?>
 
-<section class="tcp-not-found">
-	<div class="container">
-		<div class="d-flex flex-column justify-content-center align-items-center">
-			<img class="img-fluid" src="/wp-content/themes/rem/assets/images/tcp-not-found-ilustration.png" alt="rem - no encontramos lo que buscabas">
-			<h1>¡Ups!</h1>
-			<span>ERROR 404</span>
-			<p>No hemos podido encontrar la página que buscas.</p>
-			<a class="rem-btn --arrow --arrow-yellow" href="/">Regresar al home</a>
+<section class="bg-[#111] pt-[200px] pb-[100px]">
+		<div class="tcp-container">
+			<img class="w-[720px] h-[335px] mx-auto object-contain bg-gray-300" src="" alt="">
+			<p class="text-white text-center font-semibold text-[30px] mt-8">Esta página no existe, ¡pero nuestro menú sí!</p>
 		</div>
-	</div>
 </section>
 
 <?php get_footer(); ?>
