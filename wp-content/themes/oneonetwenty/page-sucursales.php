@@ -33,8 +33,8 @@ get_header(); ?>
 				</div>
 				<div class="flex flex-col md:flex-row gap-6 md:gap-12">
 					<img class="h-[600px] w-full rounded-[20px] md:flex-2/3 bg-gray-300" src="<?php echo $sucursal['foto']['url'] ?>" alt="<?php echo $sucursal['foto']['url'] ?>">
-					<div class="h-[400px] md:h-[600px] md:flex-1/3 bg-gray-400 rounded-[20px]">
-						<iframe src="<?php echo $sucursal['mapa'] ?>" frameborder="0"></iframe>
+					<div class="h-[400px] md:h-[600px] md:flex-1/3 bg-gray-400 overflow-hidden rounded-[20px]">
+						<iframe class="w-full h-full" src="<?php echo $sucursal['mapa'] ?>" frameborder="0"></iframe>
 					</div>
 				</div>
 				<p class="bg-[#111] rounded-[15px] py-2 text-[24px] md:text-[38px] text-white text-center mt-10">
