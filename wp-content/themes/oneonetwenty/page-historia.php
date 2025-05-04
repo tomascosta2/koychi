@@ -26,7 +26,7 @@
 		</p>
 
 		<div class="relative">
-			<img class="mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
+			<img class="mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-3.png" alt="Deco">
 			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
 		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
