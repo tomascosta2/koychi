@@ -10,7 +10,7 @@
 		</p>
 
 		<div class="relative">
-			<img class="absolute right-[50px] rotate-[20deg]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-1.png" alt="Deco">
+			<img class="absolute right-[50px] -top-[20px] -rotate-[20deg]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-1.png" alt="Deco">
 			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_2') ?></h2>
 		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
