@@ -3,14 +3,14 @@
 <section class="pt-[90px] pb-[100px] bg-[#FF0000]">
 	<div class="max-w-[1100px] mx-auto px-4">
 		<h1>
-			<img class="mx-auto h-[800px] w-auto" src="<?php echo get_field('banner_principal')['url'] ?>" alt="<?php echo get_field('banner_principal')['alt'] ?>">
+			<img class="mx-auto md:h-[800px] w-auto" src="<?php echo get_field('banner_principal')['url'] ?>" alt="<?php echo get_field('banner_principal')['alt'] ?>">
 		</h1>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
 			<?php echo strip_tags(get_field('texto_1')) ?>
 		</p>
 
 		<div class="relative">
-			<img class="absolute right-[50px] -top-[20px] -rotate-[20deg]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-1.png" alt="Deco">
+			<img class="absolute right-[50px] -top-[20px] -rotate-[20deg] md:block hidden" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-1.png" alt="Deco">
 			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_2') ?></h2>
 		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
@@ -18,7 +18,7 @@
 		</p>
 
 		<div class="relative">
-			<img class="absolute -left-[20px] rotate-5 bottom-2" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
+			<img class="absolute -left-[20px] rotate-5 bottom-2 md:block hidden" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
 			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
 		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
