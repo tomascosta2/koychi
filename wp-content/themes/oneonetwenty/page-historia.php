@@ -9,17 +9,26 @@
 			<?php echo strip_tags(get_field('texto_1')) ?>
 		</p>
 
-		<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_2') ?></h2>
+		<div class="relative">
+			<img class="absolute -right-[20px] rotate-5" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-1.png" alt="Deco">
+			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_2') ?></h2>
+		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
 			<?php echo strip_tags(get_field('texto_2')) ?>
 		</p>
 
-		<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
+		<div class="relative">
+			<img class="absolute -left-[20px] -rotate-5" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
+			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
+		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
 			<?php echo strip_tags(get_field('texto_3')) ?>
 		</p>
 
-		<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
+		<div class="relative">
+			<img class="mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
+			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
+		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
 			<?php echo strip_tags(get_field('texto_4')) ?>
 		</p>
