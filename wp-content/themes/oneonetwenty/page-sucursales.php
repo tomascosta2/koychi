@@ -32,7 +32,7 @@ get_header(); ?>
 					<h2 class="py-2 mb-12 px-18 mx-auto bg-[#FF0000] text-white font-black text-[30px] md:text-[50px] text-center w-fit rounded-[10px]"><?php echo $sucursal['nombre'] ?></h2>
 				</div>
 				<div class="flex flex-col md:flex-row gap-6 md:gap-12">
-					<img class="h-[600px] w-full rounded-[20px] md:flex-2/3 bg-gray-300" src="<?php echo $sucursal['foto']['url'] ?>" alt="<?php echo $sucursal['foto']['url'] ?>">
+					<img class="h-[350px] object-cover md:h-[600px] w-full rounded-[20px] md:flex-2/3 bg-gray-300" src="<?php echo $sucursal['foto']['url'] ?>" alt="<?php echo $sucursal['foto']['url'] ?>">
 					<div class="h-[400px] md:h-[600px] md:flex-1/3 bg-gray-400 overflow-hidden rounded-[20px]">
 						<iframe class="w-full h-full" src="<?php echo $sucursal['mapa'] ?>" frameborder="0"></iframe>
 					</div>
