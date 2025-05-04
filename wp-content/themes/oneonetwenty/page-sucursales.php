@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="swiper w-full h-[500px] relative">
 		<div class="swiper-wrapper max-h-full">
 			<?php foreach ($hero_fields['portadas'] as $portada) : ?>
-			<div class="swiper-slide rounded-bl-[20px] rounded-br-[20px] bg-[url('<?php echo $portada['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
+			<div class="swiper-slide rounded-bl-[20px] rounded-br-[20px] bg-[url('<?php echo $portada['imagen']['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
 			</div>
 			<?php endforeach; ?>
 		</div>
@@ -41,7 +41,7 @@ get_header(); ?>
 					<strong>Ubicacion</strong> <?php echo $sucursal['ubicacion'] ?>
 				</p>
 				<p class="text-[24px] md:text-[38px] text-center mt-10">
-					<strong>Horario</strong> <?php echo $sucursal['horario'] ?>
+					<strong>Horario</strong> <?php echo $sucursal['horarios'] ?>
 				</p>
 			</div>
 		<?php endforeach; ?>
