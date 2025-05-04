@@ -24,7 +24,7 @@ get_header(); ?>
 <section class="pt-12 pb-[80px]">
 	<div class="tcp-container">
 		<?php foreach ($lista_de_sucursales_fields['lista'] as $sucursal) : ?>
-			<div class="ky-sucursal">
+			<div class="ky-sucursal not-last:pb-8">
 				<div>
 					<div class="relative -mb-[15px] md:-mb-[25px] z-50 bg-white flex items-center justify-center mx-auto border-4 border-[#FF0000] size-[75px] rounded-full">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/store.svg" alt="">
