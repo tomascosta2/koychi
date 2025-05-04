@@ -23,6 +23,7 @@
 		<p class="text-white text-justify text-[30px] leading-[41px]">
 			<?php echo strip_tags(get_field('texto_4')) ?>
 		</p>
+		<img class="mx-auto h-[800px] w-auto" src="<?php echo get_field('banner_final')['url'] ?>" alt="<?php echo get_field('banner_final')['alt'] ?>">
 	</div>
 </section>
 
