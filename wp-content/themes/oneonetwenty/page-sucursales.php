@@ -27,7 +27,7 @@ get_header(); ?>
 			<div class="ky-sucursal">
 				<div>
 					<div class="relative -mb-[15px] md:-mb-[25px] z-50 bg-white flex items-center justify-center mx-auto border-4 border-[#FF0000] size-[75px] rounded-full">
-						<img src="/images/store.svg" alt="">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/store.svg" alt="">
 					</div>
 					<h2 class="py-2 mb-12 px-18 mx-auto bg-[#FF0000] text-white font-black text-[30px] md:text-[50px] text-center w-fit rounded-[10px]"><?php echo $sucursal['nombre'] ?></h2>
 				</div>
