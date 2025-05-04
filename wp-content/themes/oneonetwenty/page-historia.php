@@ -5,25 +5,25 @@
 		<h1>
 			<img class="mx-auto h-[800px] w-auto" src="<?php echo get_field('banner_principal')['url'] ?>" alt="<?php echo get_field('banner_principal')['alt'] ?>">
 		</h1>
-		<p class="text-white text-justify text-[30px] leading-[41px]">
+		<p class="text-white text-justify text-[20px] leading-[41px]">
 			<?php echo strip_tags(get_field('texto_1')) ?>
 		</p>
 
-		<h2 class="font-black text-white text-center my-8 text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_2') ?></h2>
-		<p class="text-white text-justify text-[30px] leading-[41px]">
+		<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_2') ?></h2>
+		<p class="text-white text-justify text-[20px] leading-[41px]">
 			<?php echo strip_tags(get_field('texto_2')) ?>
 		</p>
 
-		<h2 class="font-black text-white text-center my-8 text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
-		<p class="text-white text-justify text-[30px] leading-[41px]">
+		<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
+		<p class="text-white text-justify text-[20px] leading-[41px]">
 			<?php echo strip_tags(get_field('texto_3')) ?>
 		</p>
 
-		<h2 class="font-black text-white text-center my-8 text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
-		<p class="text-white text-justify text-[30px] leading-[41px]">
+		<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
+		<p class="text-white text-justify text-[20px] leading-[41px]">
 			<?php echo strip_tags(get_field('texto_4')) ?>
 		</p>
-		<img class="mx-auto" src="<?php echo get_field('banner_final')['url'] ?>" alt="<?php echo get_field('banner_final')['alt'] ?>">
+		<img class="mx-auto mt-8" src="<?php echo get_field('banner_final')['url'] ?>" alt="<?php echo get_field('banner_final')['alt'] ?>">
 	</div>
 </section>
 
