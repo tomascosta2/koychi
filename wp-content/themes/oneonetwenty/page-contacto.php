@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="pt-[130px] bg-[#FF0000]">
+<section class="pt-[90px] md:pt-[130px] bg-[#FF0000]">
 	<div class="tcp-container">
 		<p class="text-[22px] md:text-[48px] max-w-[650px] mx-auto leading-[100%] font-medium text-white text-center"><?php echo strip_tags(get_field('span')); ?></p>
 		<h1 class="text-[36px] mt-4 md:text-[96px] leading-[100%] font-black text-white text-center"><?php echo get_field('titulo'); ?></h1>
