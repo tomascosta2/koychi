@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="swiper w-full h-[500px] relative">
 		<div class="swiper-wrapper max-h-full">
 			<?php foreach ($hero_fields['portadas'] as $portada) : ?>
-			<div class="swiper-slide rounded-bl-[20px] rounded-br-[20px] bg-[url('<?php echo $portada['imagen']['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
+			<div class="swiper-slide rounded-bl-[20px] rounded-br-[20px] bg-[url('<?php echo $portada['imagen']['url'] ?>')] bg-cover pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
 			</div>
 			<?php endforeach; ?>
 		</div>
