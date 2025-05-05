@@ -10,10 +10,10 @@
 				<h1 class="font-black text-white text-[95px] leading-[90%]">
 					<?php echo get_field('titulo') ?>
 				</h1>
-				<p class="font-black text-white text-[50px] pl-[64px] leading-[100%]">
+				<p class="font-black mt-4 text-white text-[50px] pl-[64px] leading-[100%]">
 					<?php echo strip_tags(get_field('bajada')) ?>
 				</p>
-				<img class="pl-[120px]" src="<?php echo get_field('imagen_2')['url'] ?>" alt="<?php echo get_field('imagen_2')['alt'] ?>">
+				<img class="pl-[120px] mt-12" src="<?php echo get_field('imagen_2')['url'] ?>" alt="<?php echo get_field('imagen_2')['alt'] ?>">
 			</div>
 		</div>
 	</div>
