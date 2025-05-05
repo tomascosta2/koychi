@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<section class="py-[100px] bg-[#FF0000]">
+<section class="pt-[130px] pb-[100px] bg-[#FF0000]">
 	<div class="tcp-container">
-		<p><?php echo get_field('span'); ?></p>
-		<h1><?php echo get_field('titulo'); ?></h1>
+		<p class="text-[48px] font-medium text-white text-center"><?php echo strip_tags(get_field('span')); ?></p>
+		<h1 class="text-[96px] font-black text-white text-center"><?php echo get_field('titulo'); ?></h1>
 		<div class="grid grid-cols-2 gap-4">
 			<img src="<?php echo get_field('imagen')['url']; ?>" alt="<?php echo get_field('imagen')['alt']; ?>">
 			<div>
