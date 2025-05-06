@@ -20,7 +20,7 @@ $reading_time = ceil( $word_count / 200 );
 			<?php endif; ?>
 
 			<!-- Título -->
-			<h1 class="text-[52px] text-center font-black leading-none uppercase mb-6"><?php the_title(); ?></h1>
+			<h1 class="text-[52px] text-center font-black leading-none uppercase mb-8"><?php the_title(); ?></h1>
 
 			<!-- Fecha y categoría -->
 			<div class="text-sm text-gray-600 flex items-center gap-4 mb-4">
