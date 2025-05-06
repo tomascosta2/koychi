@@ -21,12 +21,12 @@ $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
 
 			<!-- Menú de navegación -->
 			<nav id="menu"
-				class="header-menu hidden z-50 flex-col bg-[#111] w-full md:bg-transparent gap-4 absolute top-[105px] left-0 w-full md:static md:top-0 flex md:flex md:flex-row md:items-center md:gap-4 md:w-auto">
+				class="header-menu hidden z-50 flex-col bg-[#111] w-full md:bg-transparent absolute top-[105px] left-0 w-full md:static md:top-0 flex md:flex md:flex-row md:items-center md:gap-4 md:w-auto">
 				<?php
 				wp_nav_menu(array(
 					'theme_location' => 'primary',
 					'container' => false,
-					'menu_class' => 'flex flex-col md:flex-row items-center gap-4',
+					'menu_class' => 'flex flex-col md:flex-row items-center md:gap-4',
 					'link_before' => '<span class="uppercase text-white hover:text-[#FF0000] font-semibold">',
 					'link_after' => '</span>',
 					'fallback_cb' => false,
