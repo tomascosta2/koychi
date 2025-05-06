@@ -1,50 +1,78 @@
-<?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
+<?php get_header(); 
 
-get_header();
+$content = get_the_content();
+$word_count = str_word_count( strip_tags( $content ) );
+$reading_time = ceil( $word_count / 200 );
+?>
 
-/* Start the Loop */
-while ( have_posts() ) :
-	the_post();
+<img
+	class="w-full h-[400px] bg-gray-100 object-cover rounded-bl-[20px] rounded-br-[20px]"
+	src="<?php echo get_the_post_thumbnail_url(); ?>"
+	alt="<?php echo get_the_title(); ?>">
+<section class="py-[80px]">
+	<div class="tcp-container flex flex-col md:flex-row gap-12">
 
-	get_template_part( 'template-parts/content/content-single' );
+		<!-- CONTENIDO PRINCIPAL -->
+		<article class="w-full md:w-2/3">
+			<!-- Imagen destacada -->
+			<?php if (has_post_thumbnail()) : ?>
+				<img src="<?php echo get_the_post_thumbnail_url(null, 'full'); ?>" alt="<?php the_title_attribute(); ?>" class="w-full h-[400px] object-cover rounded-xl mb-8">
+			<?php endif; ?>
 
-	if ( is_attachment() ) {
-		// Parent post navigation.
-		the_post_navigation(
-			array(
-				/* translators: %s: Parent post link. */
-				'prev_text' => sprintf( __( '<span class="meta-nav">Published in</span><span class="post-title">%s</span>', 'twentytwentyone' ), '%title' ),
-			)
-		);
-	}
+			<!-- Título -->
+			<h1 class="text-[52px] text-center font-black leading-none uppercase mb-6"><?php the_title(); ?></h1>
 
-	// If comments are open or there is at least one comment, load up the comment template.
-	if ( comments_open() || get_comments_number() ) {
-		comments_template();
-	}
+			<!-- Fecha y categoría -->
+			<div class="text-sm text-gray-600 flex items-center gap-4 mb-4">
+				<span><?php echo get_the_date(); ?></span>
+				<span>•</span>
+				<span><?php the_category(', '); ?></span>
+			</div>
 
-	// Previous/next post navigation.
-	$twentytwentyone_next = is_rtl() ? twenty_twenty_one_get_icon_svg( 'ui', 'arrow_left' ) : twenty_twenty_one_get_icon_svg( 'ui', 'arrow_right' );
-	$twentytwentyone_prev = is_rtl() ? twenty_twenty_one_get_icon_svg( 'ui', 'arrow_right' ) : twenty_twenty_one_get_icon_svg( 'ui', 'arrow_left' );
+			<!-- Tiempo de lectura -->
+			<div class="flex items-center gap-2 text-[14px] text-gray-500 mb-6">
+				<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+					viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round"
+						d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+				</svg>
+				<?php echo $reading_time; ?> minuto<?php echo $reading_time > 1 ? 's' : ''; ?> de lectura
+			</div>
 
-	$twentytwentyone_next_label     = esc_html__( 'Next post', 'twentytwentyone' );
-	$twentytwentyone_previous_label = esc_html__( 'Previous post', 'twentytwentyone' );
+			<!-- Contenido -->
+			<div class="prose max-w-none text-[#111] text-[18px] leading-relaxed">
+				<?php the_content(); ?>
+			</div>
+		</article>
 
-	the_post_navigation(
-		array(
-			'next_text' => '<p class="meta-nav">' . $twentytwentyone_next_label . $twentytwentyone_next . '</p><p class="post-title">%title</p>',
-			'prev_text' => '<p class="meta-nav">' . $twentytwentyone_prev . $twentytwentyone_previous_label . '</p><p class="post-title">%title</p>',
-		)
-	);
-endwhile; // End of the loop.
+		<!-- SIDEBAR -->
+		<aside class="w-full md:w-1/3">
+			<div class="bg-[#111] text-white p-4 rounded-lg mb-8 text-center uppercase text-[14px] font-bold tracking-wide">OTRAS KOYCHI NEWS</div>
 
-get_footer();
+			<?php
+			$recent_posts = wp_get_recent_posts([
+				'numberposts' => 3,
+				'post_status' => 'publish',
+				'post__not_in' => [get_the_ID()]
+			]);
+			foreach ($recent_posts as $post) :
+				$thumb = get_the_post_thumbnail_url($post['ID'], 'thumbnail') ?: 'https://via.placeholder.com/150';
+			?>
+				<a href="<?php echo get_permalink($post['ID']); ?>" class="flex gap-4 mb-6 group">
+					<div class="w-[100px] h-[100px] bg-gray-200 rounded-md overflow-hidden">
+						<img src="<?php echo esc_url($thumb); ?>" alt="" class="w-full h-full object-cover">
+					</div>
+					<div>
+						<h3 class="font-bold text-[16px] text-[#111] group-hover:underline mb-1"><?php echo esc_html($post['post_title']); ?></h3>
+						<div class="text-gray-500 text-[12px]">
+							<?php echo get_the_date('', $post['ID']); ?> • <?php echo do_shortcode('[tiempo_lectura id="' . $post['ID'] . '"]'); ?>
+						</div>
+					</div>
+				</a>
+			<?php endforeach; ?>
+		</aside>
+
+	</div>
+</section>
+
+<?php get_footer(); ?>

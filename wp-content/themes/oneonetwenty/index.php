@@ -15,7 +15,7 @@ $image_alt = get_post_meta( get_post_thumbnail_id( $post_id ), '_wp_attachment_i
 <div class="tcp-container">
 	<nav class="flex flex-wrap justify-center py-[35px] text-[24px]">
 		<!-- Enlace a "Todos" -->
-		<a class="border-r-2 px-8 border-[#111]" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>" class="text-blue-600 font-semibold">
+		<a class="border-r-2 px-8 border-[#111]" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">
 			Todos
 		</a>
 
@@ -39,26 +39,30 @@ if (have_posts()) {
         $word_count = str_word_count( strip_tags( $content ) );
         $reading_time = ceil( $word_count / 200 );
 		?>
-		<div class="flex flex-col <?php echo $i % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse' ?> items-start gap-6 not-last:mb-8">
-			<!-- Imagen -->
-			<div class="w-full md:w-1/2 bg-gray-200 rounded-xl aspect-video border border-blue-500 md:border-0"></div>
-
-			<!-- Contenido -->
-			<div class="flex-1 flex flex-col justify-between aspect-video">
-				<div>
-					<h2 class="text-lg font-bold text-[40px] leading-[100%] uppercase mb-2"><?php the_title(); ?></h2>
-					<p class="font-semibold text-[20px] leading-[110%] text-gray-700 mb-4"><?php the_excerpt(); ?></p>
+		<a class="block not-last:mb-12" href="<?php echo get_permalink(); ?>">
+			<div class="flex flex-col <?php echo ($i % 2 === 0) ? 'md:flex-row' : 'md:flex-row-reverse' ?> items-start gap-6 text-[#111]">
+				<!-- Imagen -->
+				<div class="w-full md:w-1/2 bg-gray-200 rounded-xl aspect-video border border-blue-500 md:border-0">
+					<img src="<?php //echo get_the_post_thumbnail_url() ?>" alt="">
 				</div>
-				<div class="flex items-center gap-2 text-[14px] text-gray-500">
-					<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
-						viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round"
-							d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-					</svg>
-					<?php echo $reading_time; ?> minuto<?php echo $reading_time > 1 ? 's' : ''; ?> de lectura
+
+				<!-- Contenido -->
+				<div class="flex-1 flex flex-col justify-between aspect-video">
+					<div>
+						<h2 class="text-lg font-bold text-[40px] leading-[100%] uppercase mb-2"><?php echo get_the_title(); ?></h2>
+						<p class="font-semibold text-[20px] leading-[110%] text-gray-700 mb-4"><?php echo strip_tags(get_the_excerpt()); ?></p>
+					</div>
+					<div class="flex items-center gap-2 text-[14px] text-gray-500">
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+							viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round"
+								d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+						</svg>
+						<?php echo $reading_time; ?> minuto<?php echo $reading_time > 1 ? 's' : ''; ?> de lectura
+					</div>
 				</div>
 			</div>
-		</div>
+		</a>
 <?php
 		$i++;
 	}
