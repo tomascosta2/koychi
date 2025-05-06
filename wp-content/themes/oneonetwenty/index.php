@@ -72,7 +72,7 @@ if (have_posts()) {
 } ?>
 
 	<div class="w-full p-10 rounded-[20px] bg-[#FF0000] my-12">
-
+		<img src="/wp-content/themes/oneonetwenty/assets/images/koychi-suscripcion.webp" alt="Koychi Suscripcion">
 	</div>
 
 </div>
