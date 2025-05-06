@@ -12,7 +12,7 @@ $reading_time = ceil( $word_count / 200 );
 	alt="<?php echo get_the_title(); ?>"
 >
 <?php endif; ?>
-<section class="py-[80px]">
+<section class="pb-[80px] <?php echo has_post_thumbnail() ? 'pt-[80px]' : 'pt-[120px]' ?>">
 	<div class="tcp-container flex flex-col md:flex-row gap-12">
 
 		<!-- CONTENIDO PRINCIPAL -->
