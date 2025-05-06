@@ -12,6 +12,21 @@ body {
 	font-family: 'Sofia Sans Variable', sans-serif;
 }
 
+/* Header */
+.header-menu li {
+	display: block;
+	width: 100%;
+}
+.header-menu li a {
+	display: block;
+	width: 100%;
+}
+@media (max-width: 500px) {
+	.header-menu li a {
+		padding: 16px;
+	}
+}
+
 /* Clase para usar como contenedor */
 .tcp-container {
 	max-width: 1200px;

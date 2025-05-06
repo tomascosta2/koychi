@@ -18,5 +18,15 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		</div>
 	</footer>
 
+	<!-- Script menu -->
+	<script>
+		const menuBtn = document.getElementById("menu-btn");
+		const menu = document.getElementById("menu");
+
+		menuBtn.addEventListener("click", () => {
+			menu.classList.toggle("hidden");
+		});
+	</script>
+
 	<?php
 endif;
