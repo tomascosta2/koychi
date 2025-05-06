@@ -1,10 +1,16 @@
 <?php
-get_header(); ?>
+get_header(); 
+
+$post_id = 819;
+
+$image_url = get_the_post_thumbnail_url( $post_id, 'full' );
+$image_alt = get_post_meta( get_post_thumbnail_id( $post_id ), '_wp_attachment_image_alt', true );
+?>
 
 <img 
 	class="w-full h-[500px] bg-gray-100 object-cover rounded-bl-[20px] rounded-br-[20px]" 
-	src="<?php echo get_field('portada', 819)['url'] ?>" 
-	alt="<?php echo get_field('portada', 819)['alt'] ?>"
+	src="<?php echo esc_url( $image_url ); ?>" 
+	alt="<?php echo esc_attr( $image_alt ); ?>"
 >
 <div class="tcp-container">
 	<nav class="flex flex-wrap justify-center py-[35px] text-[24px]">
