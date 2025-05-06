@@ -5,19 +5,18 @@ $word_count = str_word_count( strip_tags( $content ) );
 $reading_time = ceil( $word_count / 200 );
 ?>
 
+<?php if (has_post_thumbnail()) : ?>
 <img
 	class="w-full h-[400px] bg-gray-100 object-cover rounded-bl-[20px] rounded-br-[20px]"
 	src="<?php echo get_the_post_thumbnail_url(); ?>"
-	alt="<?php echo get_the_title(); ?>">
+	alt="<?php echo get_the_title(); ?>"
+>
+<?php endif; ?>
 <section class="py-[80px]">
 	<div class="tcp-container flex flex-col md:flex-row gap-12">
 
 		<!-- CONTENIDO PRINCIPAL -->
 		<article class="w-full md:w-2/3">
-			<!-- Imagen destacada -->
-			<?php if (has_post_thumbnail()) : ?>
-				<img src="<?php echo get_the_post_thumbnail_url(null, 'full'); ?>" alt="<?php the_title_attribute(); ?>" class="w-full h-[400px] object-cover rounded-xl mb-8">
-			<?php endif; ?>
 
 			<!-- Título -->
 			<h1 class="text-[52px] text-center font-black leading-none uppercase mb-8"><?php the_title(); ?></h1>
