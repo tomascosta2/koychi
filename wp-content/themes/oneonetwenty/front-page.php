@@ -101,7 +101,7 @@ get_header(); ?>
 				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_4']['url'] ?>" alt="<?php echo $grilla_fields['foto_4']['alt'] ?>">
 			</div>
 			<div class="md:col-span-2 md:row-span-2">
-				<img class="bg-gray-300 h-full w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_5']['url'] ?>" alt="<?php echo $grilla_fields['foto_5']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-full w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_5']['url'] ?>" alt="<?php echo $grilla_fields['foto_5']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-3">
 				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_6']['url'] ?>" alt="<?php echo $grilla_fields['foto_6']['alt'] ?>">
