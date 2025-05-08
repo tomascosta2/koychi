@@ -37,7 +37,7 @@ get_header(); ?>
 						<iframe class="w-full h-full" src="<?php echo $sucursal['mapa'] ?>" frameborder="0"></iframe>
 					</div>
 				</div>
-				<a href="<?php echo $sucursal['link_google_maps']['url'] ?>" class="block bg-[#111] rounded-[15px] py-2 px-4 text-[24px] md:text-[38px] text-white text-center mt-10">
+				<a href="<?php echo $sucursal['link_google_maps'] ?>" class="block bg-[#111] rounded-[15px] py-2 px-4 text-[24px] md:text-[38px] text-white text-center mt-10">
 					<strong>Ubicacion</strong> <?php echo $sucursal['ubicacion'] ?>
 				</a>
 				<p class="text-[24px] md:text-[38px] text-center mt-10">
