@@ -17,17 +17,17 @@
 			<?php echo strip_tags(get_field('texto_2')) ?>
 		</p>
 
-		<div class="relative">
-			<img class="absolute -left-[20px] rotate-5 bottom-2 md:block hidden" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
-			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
+		<div class="relative group">
+			<img class="group-hover:scale-[105%] group-hover:-rotate-[10deg] transition-all absolute -left-[20px] rotate-5 bottom-2 md:block hidden" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-2.png" alt="Deco">
+			<h2 class="group-hover:scale-[105%] transition-all font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_3') ?></h2>
 		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
 			<?php echo strip_tags(get_field('texto_3')) ?>
 		</p>
 
-		<div class="relative mt-8">
-			<img class="mx-auto size-[100px] md:size-[127px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-3.png" alt="Deco">
-			<h2 class="font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
+		<div class="relative mt-8 group">
+			<img class="group-hover:scale-[105%] group-hover:-rotate-[10deg] transition-all mx-auto size-[100px] md:size-[127px]" src="/wp-content/themes/oneonetwenty/assets/images/koychi-historia-deco-3.png" alt="Deco">
+			<h2 class="group-hover:scale-[105%] transition-all font-black text-white text-center my-8 text-[40px] md:text-[90px] uppercase leading-[90%]"><?php echo get_field('titulo_4') ?></h2>
 		</div>
 		<p class="text-white text-justify text-[20px] leading-[120%] md:text-[30px] md:leading-[41px]">
 			<?php echo strip_tags(get_field('texto_4')) ?>
