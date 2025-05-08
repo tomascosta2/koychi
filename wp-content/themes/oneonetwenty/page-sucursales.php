@@ -18,7 +18,7 @@ get_header(); ?>
 		<div class="swiper-pagination"></div>
 	</div>
 	<h1 class="font-bold text-[32px] md:text-[60px] leading-[110%] text-center mt-12 uppercase">
-		<?php echo $lista_de_sucursales_fields['titulo'] ?>
+		<?php echo $hero_fields['titulo'] ?>
 	</h1>
 </section>
 <section class="pt-12 pb-[80px]">
