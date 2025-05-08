@@ -39,11 +39,11 @@ if (have_posts()) {
         $word_count = str_word_count( strip_tags( $content ) );
         $reading_time = ceil( $word_count / 200 );
 		?>
-		<a class="block not-last:mb-12" href="<?php echo get_permalink(); ?>">
+		<a class="block not-last:mb-12 group" href="<?php echo get_permalink(); ?>">
 			<div class="flex flex-col <?php echo ($i % 2 === 0) ? 'md:flex-row' : 'md:flex-row-reverse' ?> items-start gap-6 text-[#111]">
 				<!-- Imagen -->
 				<div class="w-full md:w-1/2 bg-gray-200 rounded-xl overflow-clip aspect-video border border-blue-500 md:border-0">
-					<img class="object-cover object-center h-full w-full hover:scale-[105%] transition-all" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
+					<img class="object-cover object-center h-full w-full group-hover:scale-[105%] transition-all" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
 				</div>
 
 				<!-- Contenido -->
