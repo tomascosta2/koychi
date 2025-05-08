@@ -64,7 +64,7 @@ get_header(); ?>
 		</h1>
 		<img class="w-[800px] group-hover:scale-[105%] transition-all h-auto object-contain mx-auto mt-8 max-w-full" src="<?php echo $call_to_action_fields['imagen']['url'] ?>" alt="">
 		<p class="uppercase text-center font-semibold leading-[110%] text-[38px] mt-8"><?php echo strip_tags($call_to_action_fields['bajada']) ?></p>
-		<a class="ky-btn group-hover:scale-[105%] hover:scale-[105%] transition-all mt-6" href="<?php echo $call_to_action_fields['boton']['url'] ?>"><?php echo $call_to_action_fields['boton']['title'] ?></a>
+		<a class="ky-btn group-hover:scale-[105%] hover:scale-[110%] transition-all mt-6" href="<?php echo $call_to_action_fields['boton']['url'] ?>"><?php echo $call_to_action_fields['boton']['title'] ?></a>
 	</div>
 </section>
 
@@ -75,7 +75,7 @@ get_header(); ?>
 		<p class="text-white text-[22px] md:text-[36px] leading-[110%] text-center">
 			<?php echo strip_tags($historia_fields['texto'], '<br>') ?>
 		</p>
-		<a class="ky-btn group-hover:scale-[105%] hover:scale-[105%] transition-all --secondary mt-6" href="#">¡Lee nuestra historia!</a>
+		<a class="ky-btn group-hover:scale-[105%] hover:scale-[110%] transition-all --secondary mt-6" href="#">¡Lee nuestra historia!</a>
 	</div>
 	<!-- Spotify -->
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
