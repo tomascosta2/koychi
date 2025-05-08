@@ -28,7 +28,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($entradas_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -74,7 +74,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($pollo_frito_coreano_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -124,7 +124,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($mariscos_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -170,7 +170,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($fideos_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -223,7 +223,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($sopas_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -276,7 +276,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($acompañamientos_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -329,7 +329,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($extras_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -367,7 +367,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($bebidas_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
@@ -420,7 +420,7 @@ get_header(); ?>
 		<div class="grid md:grid-cols-2 gap-[45px] mt-[50px]">
 			<?php foreach ($postres_fields['platos'] as $index => $plato) : ?>
 				<div class="plato-card hover:scale-[105%] group transition-all rounded-[20px] border border-dashed p-[22px] relative">
-					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[110%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
+					<img class="absolute h-[50px] -top-[25px] right-[20px] group-hover:scale-[115%] transition-all" src="/wp-content/themes/oneonetwenty/assets/images/koychi-<?php echo $plato['hot'] ?>-tag.png" alt="">
 					<div class="flex flex-col justify-between h-full gap-6">
 						<div>
 							<h3 class="font-black leading-[95%] text-[40px] uppercase"><?php echo $plato['nombre'] ?></h3>
