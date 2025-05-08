@@ -8,7 +8,7 @@ $image_alt = get_post_meta( get_post_thumbnail_id( $post_id ), '_wp_attachment_i
 ?>
 
 <img 
-	class="w-full h-[500px] bg-gray-100 object-cover rounded-bl-[20px] rounded-br-[20px]" 
+	class="w-full h-[178px] md:h-[500px] bg-gray-100 object-cover rounded-bl-[20px] rounded-br-[20px]" 
 	src="<?php echo esc_url( $image_url ); ?>" 
 	alt="<?php echo esc_attr( $image_alt ); ?>"
 >
