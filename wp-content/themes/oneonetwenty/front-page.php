@@ -80,7 +80,7 @@ get_header(); ?>
 	<!-- Spotify -->
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
 		<div class="tcp-container">
-			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6y1YWIGoyj3OPeuknSmjfl?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6y1YWIGoyj3OPeuknSmjfl?utm_source=generator&theme=0" width="100%" height="250" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 		</div>
 	</div>
 </section>
