@@ -11,7 +11,7 @@ get_header(); ?>
 
 <!-- Carrusel -->
 <section class="ky-hero">
-	<div class="swiper w-full h-[500px] relative">
+	<div class="swiper w-full h-[350px] md:h-[500px] relative">
 		<div class="swiper-wrapper max-h-full">
 			<!-- Slide 1 -->
 			<?php foreach ($hero_fields['slides'] as $slide) : ?>
