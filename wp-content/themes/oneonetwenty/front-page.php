@@ -18,10 +18,10 @@ get_header(); ?>
 				<div class="swiper-slide group bg-cover bg-[url('<?php echo $slide['imagen']['url'] ?>')] pt-[90px] pb-[66px] flex items-center justify-center bg-gray-500">
 					<div class="tcp-container h-full">
 						<div class="flex items-end justify-center h-full">
-							<div class="bg-white py-4 px-8 rounded-[15px] h-fit relative">
-								<img class="hidden group-hover:-rotate-35 md:block absolute -left-[40px] -bottom-[25px] -rotate-25"
+							<div class="bg-white py-4 px-8 rounded-[15px] h-fit relative group-hover:scale-[105%] transition-all">
+								<img class="hidden group-hover:-rotate-40 group-hover:scale-[105%] transition-all md:block absolute -left-[40px] -bottom-[25px] -rotate-25"
 									src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-1.png" alt="Koychi K">
-								<img class="absolute group-hover:rotate-10 size-[50px] md:size-[115px] -top-[20px] md:-right-[57.5px] -right-[10px] md:-top-[57.5px]"
+								<img class="absolute group-hover:rotate-15 group-hover:scale-[105%] transition-all size-[50px] md:size-[115px] -top-[20px] md:-right-[57.5px] -right-[10px] md:-top-[57.5px]"
 									src="/wp-content/themes/oneonetwenty/assets/images/koychi-element-2.png" alt="Koychi K">
 								<h2 class="ky-hero__title font-bold uppercase text-[32px] md:text-[60px] leading-[79%] text-center">
 									<?php echo $slide['titulo'] ?>
