@@ -64,18 +64,18 @@ get_header(); ?>
 		</h1>
 		<img class="w-[800px] group-hover:scale-[105%] transition-all h-auto object-contain mx-auto mt-8 max-w-full" src="<?php echo $call_to_action_fields['imagen']['url'] ?>" alt="">
 		<p class="uppercase text-center font-semibold leading-[110%] text-[38px] mt-8"><?php echo strip_tags($call_to_action_fields['bajada']) ?></p>
-		<a class="ky-btn mt-6" href="<?php echo $call_to_action_fields['boton']['url'] ?>"><?php echo $call_to_action_fields['boton']['title'] ?></a>
+		<a class="ky-btn group-hover:scale-[105%] transition-all mt-6" href="<?php echo $call_to_action_fields['boton']['url'] ?>"><?php echo $call_to_action_fields['boton']['title'] ?></a>
 	</div>
 </section>
 
 <!-- Historia -->
-<section class="ky-historia bg-[#FF0000] rounded-tr-[20px] pt-[40px] rounded-[20px]">
+<section class="group ky-historia bg-[#FF0000] rounded-tr-[20px] pt-[40px] rounded-[20px]">
 	<div class="tcp-container">
 		<img class="w-[940px] mx-auto object-contain" src="<?php echo $historia_fields['imagen']['url'] ?>" alt="<?php echo $historia_fields['imagen']['alt'] ?>">
 		<p class="text-white text-[22px] md:text-[36px] leading-[110%] text-center">
 			<?php echo strip_tags($historia_fields['texto'], '<br>') ?>
 		</p>
-		<a class="ky-btn --secondary mt-6" href="#">¡Lee nuestra historia!</a>
+		<a class="ky-btn group-hover:scale-[105%] transition-all --secondary mt-6" href="#">¡Lee nuestra historia!</a>
 	</div>
 	<!-- Spotify -->
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
@@ -89,25 +89,25 @@ get_header(); ?>
 	<div class="tcp-container">
 		<div class="grid md:grid-cols-3 md:grid-rows-4 gap-4">
 			<div class="md:col-span-3">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_1']['url'] ?>" alt="<?php echo $grilla_fields['foto_1']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_1']['url'] ?>" alt="<?php echo $grilla_fields['foto_1']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_2']['url'] ?>" alt="<?php echo $grilla_fields['foto_2']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_2']['url'] ?>" alt="<?php echo $grilla_fields['foto_2']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_3']['url'] ?>" alt="<?php echo $grilla_fields['foto_3']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_3']['url'] ?>" alt="<?php echo $grilla_fields['foto_3']['alt'] ?>">
 			</div>
 			<div class="md:row-start-2">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_4']['url'] ?>" alt="<?php echo $grilla_fields['foto_4']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_4']['url'] ?>" alt="<?php echo $grilla_fields['foto_4']['alt'] ?>">
 			</div>
 			<div class="md:col-span-2 md:row-span-2">
 				<img class="bg-gray-300 h-full w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_5']['url'] ?>" alt="<?php echo $grilla_fields['foto_5']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-3">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_6']['url'] ?>" alt="<?php echo $grilla_fields['foto_6']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_6']['url'] ?>" alt="<?php echo $grilla_fields['foto_6']['alt'] ?>">
 			</div>
 			<div class="md:col-start-3 md:row-start-4">
-				<img class="bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_7']['url'] ?>" alt="<?php echo $grilla_fields['foto_7']['alt'] ?>">
+				<img class="hover:scale-[103%] transition-all bg-gray-300 h-[380px] w-full rounded-[20px] object-cover" src="<?php echo $grilla_fields['foto_7']['url'] ?>" alt="<?php echo $grilla_fields['foto_7']['alt'] ?>">
 			</div>
 		</div>
 	</div>
