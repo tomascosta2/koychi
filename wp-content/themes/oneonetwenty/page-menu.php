@@ -56,7 +56,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -106,7 +106,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -152,7 +152,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -205,7 +205,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -258,7 +258,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -311,7 +311,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -349,7 +349,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
@@ -402,7 +402,7 @@ get_header(); ?>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
 				<a href="#!" class="uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
-					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex gap-2 px-6 w-fit mx-auto rounded-[10px] py-2">
+					<span class="font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
 						¡pide online!
 					</span>
