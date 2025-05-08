@@ -43,7 +43,7 @@ if (have_posts()) {
 			<div class="flex flex-col <?php echo ($i % 2 === 0) ? 'md:flex-row' : 'md:flex-row-reverse' ?> items-start gap-6 text-[#111]">
 				<!-- Imagen -->
 				<div class="w-full md:w-1/2 bg-gray-200 rounded-xl aspect-video border border-blue-500 md:border-0">
-					<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
+					<img class="object-cover object-center" src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
 				</div>
 
 				<!-- Contenido -->
