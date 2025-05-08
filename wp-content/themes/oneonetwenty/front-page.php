@@ -80,11 +80,7 @@ get_header(); ?>
 	<!-- Spotify -->
 	<div class="bg-[#111] rounded-[20px] p-4 mt-[90px]">
 		<div class="tcp-container">
-			<div class="flex items-center justify-between gap-2 md:gap-8">
-				<img class="flex-1/3 max-w-[25%]" src="<?php echo $radio_fields['imagen_1']['url'] ?>" alt="<?php echo $radio_fields['imagen_1']['alt'] ?>">
-				<img class="flex-1/3 max-w-[40%]" src="<?php echo $radio_fields['imagen_2']['url'] ?>" alt="<?php echo $radio_fields['imagen_2']['alt'] ?>">
-				<img class="flex-1/3 max-w-[25%]" src="<?php echo $radio_fields['imagen_3']['url'] ?>" alt="<?php echo $radio_fields['imagen_3']['alt'] ?>">
-			</div>
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6y1YWIGoyj3OPeuknSmjfl?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 		</div>
 	</div>
 </section>
