@@ -13,7 +13,7 @@ $image_alt = get_post_meta( get_post_thumbnail_id( $post_id ), '_wp_attachment_i
 	alt="<?php echo esc_attr( $image_alt ); ?>"
 >
 <div class="tcp-container">
-	<nav class="flex flex-wrap justify-center py-[35px] text-[24px]">
+	<nav class="md:flex flex-wrap justify-center py-[35px] text-[24px]">
 		<!-- Enlace a "Todos" -->
 		<a class="border-b md:borderb-0 md:border-r-2 px-8 border-[#111]" href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>">
 			Todos
