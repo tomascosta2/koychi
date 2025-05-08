@@ -24,7 +24,7 @@ $image_alt = get_post_meta( get_post_thumbnail_id( $post_id ), '_wp_attachment_i
 		$categories = get_categories();
 		foreach ( $categories as $category ) {
 			$cat_link = get_category_link( $category->term_id );
-			echo '<a class="not-last:border-r-2 not-last:px-8 ps-8" href="' . esc_url( $cat_link ) . '" class="text-gray-700 hover:text-blue-600">' . esc_html( $category->name ) . '</a>';
+			echo '<a class="border-b md:borderb-0 md:not-last:border-r-2 px-8 border-[#111]" href="' . esc_url( $cat_link ) . '" class="text-gray-700 hover:text-blue-600">' . esc_html( $category->name ) . '</a>';
 		}
 		?>
 	</nav>
