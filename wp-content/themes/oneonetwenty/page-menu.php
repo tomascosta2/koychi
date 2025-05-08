@@ -46,6 +46,7 @@ get_header(); ?>
 				if ($index === 3 && !empty($entradas_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $entradas_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $entradas_fields['imagen_intermedia']['url'] ?>">
 					</div>
@@ -92,6 +93,7 @@ get_header(); ?>
 				if ($index === 5 && !empty($pollo_frito_coreano_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $pollo_frito_coreano_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $pollo_frito_coreano_fields['imagen_intermedia']['url'] ?>">
 					</div>
@@ -142,6 +144,7 @@ get_header(); ?>
 				if ($index === 6 && !empty($mariscos_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $mariscos_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $mariscos_fields['imagen_intermedia']['url'] ?>"
 						/>
@@ -188,6 +191,7 @@ get_header(); ?>
 				if ($index === 3 && !empty($fideos_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $fideos_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $fideos_fields['imagen_intermedia']['url'] ?>"
 						/>
@@ -241,6 +245,7 @@ get_header(); ?>
 				if ($index === 3 && !empty($sopas_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $sopas_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $sopas_fields['imagen_intermedia']['url'] ?>"
 						/>
@@ -294,6 +299,7 @@ get_header(); ?>
 				if ($index === 3 && !empty($acompañamientos_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $acompañamientos_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $acompañamientos_fields['imagen_intermedia']['url'] ?>"
 						/>
@@ -385,6 +391,7 @@ get_header(); ?>
 				if ($index === 3 && !empty($bebidas_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>"
 						/>
@@ -438,6 +445,7 @@ get_header(); ?>
 				if ($index === 3 && !empty($bebidas_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
+							class="w-full"
 							src="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>" 
 							alt="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>"
 						/>
