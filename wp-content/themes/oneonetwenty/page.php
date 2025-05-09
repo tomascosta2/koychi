@@ -13,16 +13,7 @@ get_header();
 
 echo '<section class="pt-[120px] pb-[100px]">';
 echo 	'<div class="max-w-[900px] mx-auto px-4">';
-/* Start the Loop */
-while ( have_posts() ) :
-	the_post();
-	get_template_part( 'template-parts/content/content-page' );
-
-	// If comments are open or there is at least one comment, load up the comment template.
-	if ( comments_open() || get_comments_number() ) {
-		comments_template();
-	}
-endwhile; // End of the loop.
+echo 		get_the_content();
 echo 	'</div>';
 echo '</section>';
 
