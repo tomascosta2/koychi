@@ -79,7 +79,7 @@ if (have_posts()) {
 		<div class="grid md:grid-cols-2">
 			<img src="/wp-content/themes/oneonetwenty/assets/images/koychi-suscripcion.webp" alt="Koychi Suscripcion">
 			<div class="p-6">
-				<iframe src="https://cdn.forms-content-1.sg-form.com/7260b449-2b63-11f0-9c0c-cafe05176aba"/>
+				<iframe class="w-full h-full" src="https://cdn.forms-content-1.sg-form.com/7260b449-2b63-11f0-9c0c-cafe05176aba"/>
 			</div>
 		</div>
 	</div>
