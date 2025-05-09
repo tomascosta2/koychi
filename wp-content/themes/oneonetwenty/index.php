@@ -76,7 +76,10 @@ if (have_posts()) {
 } ?>
 
 	<div class="w-full p-10 rounded-[20px] bg-[#FF0000] my-12">
-		<img src="/wp-content/themes/oneonetwenty/assets/images/koychi-suscripcion.webp" alt="Koychi Suscripcion">
+		<div class="grid md:grid-cols-2">
+			<img src="/wp-content/themes/oneonetwenty/assets/images/koychi-suscripcion.webp" alt="Koychi Suscripcion">
+			<iframe src="https://cdn.forms-content-1.sg-form.com/7260b449-2b63-11f0-9c0c-cafe05176aba"/>
+		</div>
 	</div>
 
 </div>

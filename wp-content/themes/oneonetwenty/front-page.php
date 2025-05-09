@@ -34,7 +34,6 @@ get_header(); ?>
 					</div>
 				</div>
 			<?php endforeach; ?>
-
 		</div>
 
 		<!-- Paginación y flechas -->
