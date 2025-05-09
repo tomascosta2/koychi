@@ -11,6 +11,8 @@
 
 get_header();
 
+echo '<section class="pt-[120px] pb-[100px]">';
+echo 	'<div class="max-w-[900px] mx-auto px-4">';
 /* Start the Loop */
 while ( have_posts() ) :
 	the_post();
@@ -21,5 +23,7 @@ while ( have_posts() ) :
 		comments_template();
 	}
 endwhile; // End of the loop.
+echo 	'</div>';
+echo '</section>';
 
 get_footer();
