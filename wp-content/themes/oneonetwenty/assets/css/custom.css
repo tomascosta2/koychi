@@ -70,6 +70,20 @@ body {
 	color: red;
 }
 
+/* Page */
+.page-content h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+.page-content h2 {
+	font-size: 26px;
+	font-weight: bold;
+}
+.page-content h3 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
 /* Footer */
 .tcp-footer {
 	position: relative;

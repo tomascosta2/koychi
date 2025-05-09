@@ -11,7 +11,7 @@
 
 get_header();
 
-echo '<section class="pt-[140px] pb-[100px]">';
+echo '<section class="pt-[140px] pb-[100px] page-content">';
 echo 	'<div class="max-w-[900px] mx-auto px-4">';
 echo 		get_the_content();
 echo 	'</div>';
