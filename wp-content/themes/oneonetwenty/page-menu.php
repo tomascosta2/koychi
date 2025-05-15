@@ -56,10 +56,10 @@ get_header(); ?>
 		</div>
 		<?php if ($entradas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $entradas_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $entradas_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -105,12 +105,12 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($pollo_frito_coreano_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $pollo_frito_coreano_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $pollo_frito_coreano_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -152,12 +152,12 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($mariscos_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $mariscos_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $mariscos_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -206,12 +206,12 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($fideos_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $fideos_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $fideos_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -260,12 +260,12 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($sopas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $sopas_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $sopas_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -314,12 +314,12 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($acompañamientos_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $acompañamientos_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $acompañamientos_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -352,12 +352,12 @@ get_header(); ?>
 				<?php 
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($extras_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $extras_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $extras_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -406,12 +406,12 @@ get_header(); ?>
 				<?php endif;
 			endforeach; ?>
 		</div>
-		<?php if ($entradas_fields['tiene_cta']) : ?>
+		<?php if ($bebidas_fields['tiene_cta']) : ?>
 			<div class="mt-10 flex gap-4">
-				<a href="#!" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+				<a href="<?php $bebidas_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
 					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
 						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
-						¡pide online!
+						<?php $bebidas_fields['boton']['title'] ?>
 					</span>
 					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
 				</a>
@@ -442,24 +442,35 @@ get_header(); ?>
 					</div>
 				</div>
 				<?php 
-				if ($index === 3 && !empty($bebidas_fields['imagen_intermedia'])): ?>
+				if ($index === 3 && !empty($postres_fields['imagen_intermedia'])): ?>
 					<div class="my-8 text-center col-span-full">
 						<img 
 							class="w-full"
-							src="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>" 
-							alt="<?php echo $bebidas_fields['imagen_intermedia']['url'] ?>"
+							src="<?php echo $postres_fields['imagen_intermedia']['url'] ?>" 
+							alt="<?php echo $postres_fields['imagen_intermedia']['url'] ?>"
 						/>
 					</div>
-				<?php elseif ($index === 18 && !empty($bebidas_fields['imagen_entrelinea'])): ?>
+				<?php elseif ($index === 18 && !empty($postres_fields['imagen_entrelinea'])): ?>
 					<div class="text-center row-span-2">
 						<img 
-							src="<?php echo $bebidas_fields['imagen_entrelinea']['url'] ?>" 
-							alt="<?php echo $bebidas_fields['imagen_entrelinea']['url'] ?>"
+							src="<?php echo $postres_fields['imagen_entrelinea']['url'] ?>" 
+							alt="<?php echo $postres_fields['imagen_entrelinea']['url'] ?>"
 						/>
 					</div>
 				<?php endif;
 			endforeach; ?>
 		</div>
+		<?php if ($postres_fields['tiene_cta']) : ?>
+			<div class="mt-10 flex gap-4">
+				<a href="<?php $postres_fields['boton']['url'] ?>" class="group uppercase flex md:flex-row flex-col gap-4 justify-center items-center mx-auto">
+					<span class="group-hover:scale-[105%] transition-all font-[30px] text-white font-black bg-[#FF0000] text-[30px] flex justify-center gap-2 px-6 w-full md:w-fit mx-auto rounded-[10px] py-2">
+						<img src="/wp-content/themes/oneonetwenty/assets/images/moto-btn.svg" alt="Koychi Delivery">
+						<?php $postres_fields['boton']['title'] ?>
+					</span>
+					<img class="object-contain" src="/wp-content/themes/oneonetwenty/assets/images/app-pedidos.png" alt="Koychi Delivery">
+				</a>
+			</div>
+		<?php endif; ?>
 	</div>
 </section>
 
