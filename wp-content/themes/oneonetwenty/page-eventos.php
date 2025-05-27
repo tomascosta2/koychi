@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php 
+$hero_fields = get_field('hero');
+$info_fields = get_field('info');
+
+get_header(); ?>
 
 <!-- Hero -->
 <section class="relative md:min-h-[740px] px-4 md:px-0">
@@ -9,28 +13,27 @@
 			cerca de
 			<span class="text-transparent hidden md:inline">.</span>  ti.
 		</h1>
-		<img class="md:-mt-[180px] -mt-4 mx-auto max-w-[1300px] w-full md:pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.webp" alt="Koychi Eventos Carrito">
+		<img class="md:-mt-[180px] -mt-4 mx-auto max-w-[1300px] w-full md:pe-[100px]" src="<?php echo $hero_fields['fondo']['url'] ?>" alt="Koychi Eventos Carrito">
 	</div>
 </section>
 
-<!-- Eventos -->
+<!-- Info -->
 <section>
 	<div class="tcp-container">
-		<h2 class="uppercase text-center font-black text-[50px] leading-[90%] md:text-[96px] md:leading-[106px] mb-4">En KOYCHI eventos</h2>
+		<h2 class="uppercase text-center font-black text-[50px] leading-[90%] md:text-[96px] md:leading-[106px] mb-4"><?php echo $info_fields['titulo'] ?></h2>
 		<p class="py-4 text-[24px] leading-[100%] md:text-[32px] md:leading-[34px] max-w-[940px] mx-auto text-black px-8 md:px-[100px] bg-[#FEC600]">
-			Transformamos cada celebración en una experiencia única, con propuestas creativas que combinan sabor, estilo y personalidad.
+			<?php echo strip_tags($info_fields['bajada'], '<strong>') ?>
 		</p>
 		<div class="bg-black max-w-[940px] mx-auto mt-[57px] p-8 md:px-[90px]">
 			<h3 class="text-white text-center font-black uppercase text-[32px] leading-[90%] md:text-[48px] md:leading-[64px] mb-8">
-				Nos adaptamos a cada ocasión
-				para hacerla inolvidable
+				<?php echo $info_fields['titulo_2'] ?>
 			</h3>
 			<p class="text-[24px] leading-[100%] md:text-[32px] md:leading-[40px] text-white">
-				Desde eventos masivos con nuestro foodtruck hasta celebraciones privadas y encuentros corporativos con nuestro servicio de catering.
+				<?php echo strip_tags($info_fields['bajada_2'], '<strong>') ?>
 			</p>
 		</div>
 	</div>
-	<img class="w-full bg-green-500 h-auto md:h-[1030px]" src="" alt="Koychi Eventos">
+	<img class="w-full bg-green-500 h-auto md:h-[1030px]" src="<?php echo $info_fields['imagen']['url'] ?>" alt="Koychi Eventos">
 </section>
 
 <!-- Creemos que... -->
