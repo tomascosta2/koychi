@@ -114,7 +114,7 @@
 	</div>
 </section>
 
-<section class="py-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.jpg')]">
+<section class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.jpg')]">
 	<div class="tcp-container">
 		<h2 class="max-w-[1100px] text-center mx-auto font-black text-[80px] text-white leading-[73px]">
 			¡Contáctanos para tener a Koychi en tu evento o celebración!
