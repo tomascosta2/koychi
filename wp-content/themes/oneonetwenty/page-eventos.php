@@ -2,14 +2,14 @@
 
 <!-- Hero -->
 <section class="relative min-h-[740px]">
-	<div class="bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-hero.jpg')] w-full h-[740px] absolute top-0 left-0"></div>
-	<div class="relative z-40s pt-[150px]">
-		<h1 class="text-center max-w-[800px] mx-auto uppercase leading-[80%] text-[170px] font-black text-white text-[]">
+	<div class="bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-hero.webp')] w-full h-[740px] absolute top-0 left-0"></div>
+	<div class="relative z-40s pt-[170px]">
+		<h1 class="text-center max-w-[800px] mx-auto uppercase leading-[80%] text-[170px] font-black text-white">
 			más
 			cerca de
 			<span class="text-transparent">.</span>  ti.
 		</h1>
-		<img class="-mt-[180px] mx-auto max-w-[1300px] pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.png" alt="Koychi Eventos Carrito">
+		<img class="-mt-[180px] mx-auto max-w-[1300px] pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.webp" alt="Koychi Eventos Carrito">
 	</div>
 </section>
 
@@ -36,8 +36,8 @@
 <!-- Creemos que... -->
 <section class="py-[80px]"> 
 	<div class="relative">
-		<img class="absolute -top-[60px] left-[calc(50%-620px)] max-w-[1240px] mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/eventos-creemos-fondo.png" alt="Fondo">
-		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.png')] font-black -rotate-2 uppercase max-w-[880px] mx-auto text-[110px] leading-[113px]">
+		<img class="absolute -top-[60px] left-[calc(50%-620px)] max-w-[1240px] mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/eventos-creemos-fondo.webp" alt="Fondo">
+		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.webp')] font-black -rotate-2 uppercase max-w-[880px] mx-auto text-[110px] leading-[113px]">
 			En KOYCHI
 			creemos que
 		</h2>
@@ -59,7 +59,7 @@
 <!-- Para quien es -->
 <section>
 	<div class="tcp-container">
-		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.png')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[110px] leading-[80%]">
+		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[110px] leading-[80%]">
 			Nuestra propuesta está dirigida a:
 		</h2>
 		<div class="grid grid-cols-3 gap-x-[40px] gap-y-[30px]">
@@ -86,7 +86,7 @@
 			src="" 
 			alt=""
 		/>
-		<img class="-mt-[180px] relative z-40 mx-auto max-w-[700px] pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.png" alt="Koychi Eventos Carrito">
+		<img class="-mt-[180px] relative z-40 mx-auto max-w-[700px] pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.webp" alt="Koychi Eventos Carrito">
 		<div class="max-w-[1000px] mx-auto -mt-8">
 			<h2 class="text-[100px] text-center leading-[107px] uppercase font-bold">¿Quieres tener a Koychi en tu evento o celebración?</h2>
 			<a class="text-[48px] leading-[69%] mt-8 bg-[#FF0000] py-[22px] px-8 rounded-full text-white uppercase block w-fit mx-auto font-bold" href="">¡Contáctanos!</a>
@@ -114,7 +114,7 @@
 	</div>
 </section>
 
-<section class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.jpg')]">
+<section class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.webp')]">
 	<div class="tcp-container">
 		<h2 class="max-w-[1100px] text-center mx-auto font-black text-[80px] text-white leading-[73px]">
 			¡Contáctanos para tener a Koychi en tu evento o celebración!
