@@ -121,7 +121,7 @@
 		</h2>
 		<div class="grid grid-cols-2">
 			<img class="w-[644px] h-[577px] bg-green-500" src="" alt="">
-			<div class="md:order-none -order-1">
+			<div class="md:order-none -order-1 ky-eventos-form">
 				<?php echo do_shortcode('[contact-form-7 id="cba1be0" title="Contact form 1"]') ?>
 			</div>
 		</div>

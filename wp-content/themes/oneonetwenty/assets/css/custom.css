@@ -122,3 +122,8 @@ body {
 		justify-content: center !important;
 	}
 }
+
+/* EVENTOS */
+.ky-eventos-form label {
+	color: white !important;
+}
