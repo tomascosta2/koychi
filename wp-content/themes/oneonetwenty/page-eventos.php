@@ -13,7 +13,7 @@ get_header(); ?>
 			cerca de
 			<span class="text-transparent hidden md:inline">.</span>  ti.
 		</h1>
-		<img class="md:-mt-[180px] -mt-4 mx-auto max-w-[1300px] w-full md:pe-[100px]" src="<?php echo $hero_fields['fondo']['url'] ?>" alt="Koychi Eventos Carrito">
+		<img class="md:-mt-[180px] -mt-4 mx-auto max-w-[1300px] w-full md:pe-[100px]" src="<?php echo $hero_fields['imagen']['url'] ?>" alt="Koychi Eventos Carrito">
 	</div>
 </section>
 
