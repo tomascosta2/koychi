@@ -6,6 +6,8 @@ $propuestas_fields = get_field('propuestas');
 $contacto_fields = get_field('contacto');
 $formulario_fields = get_fields('formulario');
 
+print_r($formulario_fields);
+
 get_header(); ?>
 
 <!-- Hero -->
