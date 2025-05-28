@@ -50,7 +50,7 @@ get_header(); ?>
 	foreach ($creencias_fields['lista_de_creencias'] as $creencia) : 
 		$i++;
 	?>		
-		<div class="relative z-50 max-w-[860px] <?php echo $i % 2 === 0 ? '-rotate-[1.6deg]' : '-rotate-[0.24deg] mb-8' ?> mx-auto py-8 md:py-4 bg-black px-4">
+		<div class="relative z-50 max-w-[860px] mb-8 <?php echo $i % 2 === 0 ? '-rotate-[1.6deg]' : '-rotate-[0.24deg]' ?> mx-auto py-8 md:py-4 bg-black px-4">
 			<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]"><?php echo $creencia['titulo']; ?></h3>
 			<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]"><?php echo strip_tags($creencia['bajada']); ?></p>
 		</div>
@@ -60,7 +60,7 @@ get_header(); ?>
 <!-- Para quien es -->
 <section>
 	<div class="tcp-container">
-		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain md:bg-[100%] bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[28px] md:text-[110px] leading-[80%]">
+		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[28px] md:text-[110px] leading-[80%]">
 			Nuestra propuesta está dirigida a:
 		</h2>
 		<div class="grid md:grid-cols-3 gap-x-[40px] gap-y-[30px]">
