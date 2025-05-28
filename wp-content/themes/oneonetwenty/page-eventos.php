@@ -5,7 +5,6 @@ $creencias_fields = get_field('creencias');
 $propuestas_fields = get_field('propuestas');
 $contacto_fields = get_field('contacto');
 
-
 get_header(); ?>
 
 <!-- Hero -->
@@ -115,17 +114,17 @@ get_header(); ?>
 <section class="py-[100px]">
 	<div class="tcp-container">
 		<div class="grid md:grid-cols-3 gap-[20px]">
-			<div class="bg-green-500 md:col-span-2 rounded-[20px] h-[343px]">
-
+			<div class="md:col-span-2 rounded-[20px] h-[343px]">
+				<img src="<?php echo $contacto_fields['imagen_1']['url'] ?>" alt="">
 			</div>
-			<div class="bg-green-500 rounded-[20px] h-[343px]">
-
+			<div class="rounded-[20px] h-[343px]">
+				<img src="<?php echo $contacto_fields['imagen_1']['url'] ?>" alt="">
 			</div>
-			<div class="bg-green-500 rounded-[20px] h-[343px]">
-
+			<div class="rounded-[20px] h-[343px]">
+				<img src="<?php echo $contacto_fields['imagen_1']['url'] ?>" alt="">
 			</div>
-			<div class="bg-green-500 md:col-span-2 rounded-[20px] h-[343px]">
-
+			<div class="md:col-span-2 rounded-[20px] h-[343px]">
+				<img src="<?php echo $contacto_fields['imagen_1']['url'] ?>" alt="">
 			</div>
 		</div>
 	</div>
