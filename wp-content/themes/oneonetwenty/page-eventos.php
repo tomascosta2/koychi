@@ -2,6 +2,8 @@
 $hero_fields = get_field('hero');
 $info_fields = get_field('info');
 $creencias_fields = get_field('creencias');
+$propuestas_fields = get_field('propuestas');
+
 
 get_header(); ?>
 
@@ -61,15 +63,17 @@ get_header(); ?>
 <section>
 	<div class="tcp-container">
 		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[28px] md:text-[110px] leading-[80%]">
-			Nuestra propuesta está dirigida a:
+			<?php echo $propuestas_fields['titulo']; ?>
 		</h2>
 		<div class="grid md:grid-cols-3 gap-x-[40px] gap-y-[30px]">
-			<div class="bg-[#FF0000] p-8 rounded-[20px]">
-				<img class="h-[60px] w-auto mx-auto bg-gray-200" src="" alt="">
-				<p class="text-white text-center text-[32px] leading-[29px] mt-4">
-					Empresas que buscan eventos corporativos únicos.
-				</p>
-			</div>
+			<?php foreach ($propuestas_fields['lista_de_propuestas'] as $propuesta) :  ?>
+				<div class="bg-[#FF0000] p-8 rounded-[20px]">
+					<img class="h-[60px] w-auto mx-auto bg-gray-200" src="<?php echo $propuesta['icono']['url']; ?>" alt="<?php echo $propuesta['icono']['alt']; ?>">
+					<p class="text-white text-center text-[32px] leading-[29px] mt-4">
+						<?php echo $propuesta['texto']; ?>
+					</p>
+				</div>
+			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
