@@ -82,12 +82,12 @@ get_header(); ?>
 <section class="pt-[80px]">
 	<div class="tcp-container">
 		<img 
-			class="md:w-[1040px] relative z-40 h-[300px] md:h-[690px] mx-auto -rotate-[3.5deg] border border-[17px] border-white" 
+			class="md:w-[1040px] object-cover relative z-40 h-[300px] md:h-[690px] mx-auto -rotate-[3.5deg] border border-[17px] border-white" 
 			src="<?php echo $propuestas_fields['imagen_1']['url']; ?>" 
 			alt="<?php echo $propuestas_fields['imagen_1']['alt']; ?>"
 		/>
 		<img 
-			class="md:w-[1040px] relative z-10 h-[300px] md:h-[690px] mx-auto rotate-[3.12deg] border border-[17px] border-white" 
+			class="md:w-[1040px] object-cover relative z-10 h-[300px] md:h-[690px] mx-auto rotate-[3.12deg] border border-[17px] border-white" 
 			src="<?php echo $propuestas_fields['imagen_2']['url']; ?>" 
 			alt="<?php echo $propuestas_fields['imagen_2']['alt']; ?>"
 		/>
