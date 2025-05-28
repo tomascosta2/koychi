@@ -103,9 +103,9 @@ get_header(); ?>
 			</h2>
 			<a 
 				class="text-[26px] md:text-[48px] leading-[69%] mt-8 bg-[#FF0000] py-[22px] px-8 rounded-full text-white uppercase block w-fit mx-auto font-bold" 
-				href="<?php echo $contacto_fields['boton']['title'] ?>"
+				href="<?php echo $contacto_fields['boton']['url'] ?>"
 			>
-				<?php echo $contacto_fields['boton']['url'] ?>
+				<?php echo $contacto_fields['boton']['title'] ?>
 			</a>
 		</div>
 	</div>
