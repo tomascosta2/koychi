@@ -4,6 +4,7 @@ $info_fields = get_field('info');
 $creencias_fields = get_field('creencias');
 $propuestas_fields = get_field('propuestas');
 $contacto_fields = get_field('contacto');
+$formulario_fields = get_fields('formulario');
 
 get_header(); ?>
 
@@ -36,7 +37,7 @@ get_header(); ?>
 			</p>
 		</div>
 	</div>
-	<img class="w-full bg-green-500 h-auto md:h-[1030px]" src="<?php echo $info_fields['imagen']['url'] ?>" alt="Koychi Eventos">
+	<img class="w-full h-auto md:h-[1030px]" src="<?php echo $info_fields['imagen']['url'] ?>" alt="Koychi Eventos">
 </section>
 
 <!-- Creemos que... -->
@@ -133,10 +134,10 @@ get_header(); ?>
 <section class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.webp')]">
 	<div class="tcp-container">
 		<h2 class="max-w-[1100px] text-center mx-auto font-black text-[32px] md:text-[80px] text-white leading-[90%] md:leading-[73px]">
-			¡Contáctanos para tener a Koychi en tu evento o celebración!
+			<?php echo $formulario_fields['titulo'] ?>
 		</h2>
 		<div class="grid md:grid-cols-2 mt-8 md:mt-0">
-			<img class="w-full md:w-[644px] h-auto md:h-[577px] bg-green-500" src="" alt="">
+			<img class="w-full md:w-[644px] h-auto md:h-[577px]" src="<?php echo $formulario_fields['imagen']['url'] ?>" alt="<?php echo $formulario_fields['imagen']['alt'] ?>">
 			<div class="md:order-none -order-1 ky-eventos-form">
 				<?php echo do_shortcode('[contact-form-7 id="cba1be0" title="Contact form 1"]') ?>
 			</div>
