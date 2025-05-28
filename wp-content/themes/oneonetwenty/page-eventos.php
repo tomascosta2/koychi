@@ -91,7 +91,11 @@ get_header(); ?>
 			src="<?php echo $propuestas_fields['imagen_2']['url']; ?>" 
 			alt="<?php echo $propuestas_fields['imagen_2']['alt']; ?>"
 		/>
-		<img class="-mt-8 md:-mt-[180px] relative z-40 mx-auto w-full max-w-[700px] md:pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.webp" alt="Koychi Eventos Carrito">
+		<img 
+			class="-mt-8 md:-mt-[180px] relative z-40 mx-auto w-full max-w-[700px] md:pe-[100px]" 
+			src="<?php echo $propuestas_fields['imagen_3']['url']; ?>" 
+			alt="<?php echo $propuestas_fields['imagen_3']['alt']; ?>"
+		/>
 		<div class="max-w-[1000px] mx-auto md:-mt-8">
 			<h2 class="text-[32px] md:text-[100px] text-center leading-[90%] md:leading-[107px] uppercase font-bold">¿Quieres tener a Koychi en tu evento o celebración?</h2>
 			<a class="text-[26px] md:text-[48px] leading-[69%] mt-8 bg-[#FF0000] py-[22px] px-8 rounded-full text-white uppercase block w-fit mx-auto font-bold" href="">¡Contáctanos!</a>
