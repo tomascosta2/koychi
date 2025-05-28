@@ -83,13 +83,13 @@ get_header(); ?>
 	<div class="tcp-container">
 		<img 
 			class="md:w-[1040px] relative z-40 h-[300px] md:h-[690px] mx-auto -rotate-[3.5deg] bg-green-500 border border-[17px] border-white" 
-			src="" 
-			alt=""
+			src="<?php echo $propuestas_fields['imagen_1']['url']; ?>" 
+			alt="<?php echo $propuestas_fields['imagen_1']['alt']; ?>"
 		/>
 		<img 
 			class="md:w-[1040px] relative z-10 h-[300px] md:h-[690px] mx-auto rotate-[3.12deg] bg-green-500 border border-[17px] border-white" 
-			src="" 
-			alt=""
+			src="<?php echo $propuestas_fields['imagen_2']['url']; ?>" 
+			alt="<?php echo $propuestas_fields['imagen_2']['alt']; ?>"
 		/>
 		<img class="-mt-8 md:-mt-[180px] relative z-40 mx-auto w-full max-w-[700px] md:pe-[100px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-carrito-hero.webp" alt="Koychi Eventos Carrito">
 		<div class="max-w-[1000px] mx-auto md:-mt-8">
