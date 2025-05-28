@@ -60,7 +60,7 @@ get_header(); ?>
 <!-- Para quien es -->
 <section>
 	<div class="tcp-container">
-		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[28px] md:text-[110px] leading-[80%]">
+		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain md:bg-[100%] bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 uppercase max-w-[1030px] mx-auto text-white text-[28px] md:text-[110px] leading-[80%]">
 			Nuestra propuesta está dirigida a:
 		</h2>
 		<div class="grid md:grid-cols-3 gap-x-[40px] gap-y-[30px]">
