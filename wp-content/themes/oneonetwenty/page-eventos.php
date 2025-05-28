@@ -68,9 +68,9 @@ get_header(); ?>
 		<div class="grid md:grid-cols-3 gap-x-[40px] gap-y-[30px]">
 			<?php foreach ($propuestas_fields['lista_de_propuestas'] as $propuesta) :  ?>
 				<div class="bg-[#FF0000] p-8 rounded-[20px]">
-					<img class="h-[60px] w-auto mx-auto bg-gray-200" src="<?php echo $propuesta['icono']['url']; ?>" alt="<?php echo $propuesta['icono']['alt']; ?>">
+					<img class="h-[60px] w-auto mx-auto" src="<?php echo $propuesta['icono']['url']; ?>" alt="<?php echo $propuesta['icono']['alt']; ?>">
 					<p class="text-white text-center text-[32px] leading-[29px] mt-4">
-						<?php echo $propuesta['texto']; ?>
+						<?php echo strip_tags($propuesta['texto']); ?>
 					</p>
 				</div>
 			<?php endforeach; ?>
