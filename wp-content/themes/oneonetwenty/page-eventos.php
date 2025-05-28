@@ -1,6 +1,7 @@
 <?php 
 $hero_fields = get_field('hero');
 $info_fields = get_field('info');
+$creencias_fields = get_field('creencias');
 
 get_header(); ?>
 
@@ -41,22 +42,15 @@ get_header(); ?>
 	<div class="relative">
 		<img class="absolute -top-4 md:-top-[60px] md:left-[calc(50%-620px)] w-full max-w-[1240px] mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/eventos-creemos-fondo.webp" alt="Fondo">
 		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.webp')] font-black -rotate-2 uppercase max-w-[300px] md:max-w-[880px] mx-auto text-[32px] leading-[90%] md:text-[110px] md:leading-[113px]">
-			En KOYCHI
-			creemos que
+			<?php echo $creencias_fields['titulo_principal'] ?>
 		</h2>
 	</div>
-	<div class="relative z-50 max-w-[860px] -rotate-[1.6deg] mx-auto py-8 md:py-4 bg-black px-4">
-		<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]">La comida es cultura viva:</h3>
-		<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]">Compartimos tradiciones coreanas a través de sabores auténticos y llenos de identidad.</p>
-	</div>
-	<div class="relative z-50 max-w-[860px] -rotate-[0.24deg] mx-auto py-8 md:py-4 bg-black my-8 px-4">
-		<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]">Cada experiencia debe emocionar:</h3>
-		<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]">Desde un almuerzo en nuestras sucursales hasta un gran evento empresarial.</p>
-	</div>
-	<div class="relative z-50 max-w-[860px] -rotate-[1.6deg] mx-auto py-8 md:py-4 bg-black px-4">
-		<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]">La innovación y la autenticidad no son opuestos:</h3>
-		<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]">Usamos ingredientes de calidad para crear propuestas únicas sin perder la esencia tradicional.</p>
-	</div>
+	<?php foreach ($creencias_fields['lista_de_creencias'] as $creencia) : ?>		
+		<div class="relative z-50 max-w-[860px] -rotate-[1.6deg] mx-auto py-8 md:py-4 bg-black px-4">
+			<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]"><?php echo $creencia['titulo']; ?></h3>
+			<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]"><?php echo $creencia['bajada']; ?></p>
+		</div>
+	<?php endforeach; ?>
 </section>
 
 <!-- Para quien es -->
