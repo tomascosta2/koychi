@@ -4,7 +4,7 @@ $info_fields = get_field('info');
 $creencias_fields = get_field('creencias');
 $propuestas_fields = get_field('propuestas');
 $contacto_fields = get_field('contacto');
-$formulario_fields = get_fields('formulario');
+$formulario_fields = get_field('formulario');
 
 get_header(); ?>
 
