@@ -79,7 +79,7 @@ get_header(); ?>
 </section>
 
 <!-- Pepe -->
-<section>
+<section class="pt-[80px]">
 	<div class="tcp-container">
 		<img 
 			class="md:w-[1040px] relative z-40 h-[300px] md:h-[690px] mx-auto -rotate-[3.5deg] border border-[17px] border-white" 
