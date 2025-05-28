@@ -114,16 +114,16 @@ get_header(); ?>
 <section class="py-[100px]">
 	<div class="tcp-container">
 		<div class="grid md:grid-cols-3 gap-[20px]">
-			<div class="md:col-span-2 rounded-[20px] h-[343px]">
+			<div class="md:col-span-2 rounded-[20px] overflow-clip h-[343px]">
 				<img class="w-full h-full object-cover" src="<?php echo $contacto_fields['imagen_1']['url'] ?>" alt="<?php echo $contacto_fields['imagen_1']['alt'] ?>">
 			</div>
-			<div class="rounded-[20px] h-[343px]">
+			<div class="rounded-[20px] h-[343px] overflow-clip">
 				<img class="w-full h-full object-cover" src="<?php echo $contacto_fields['imagen_2']['url'] ?>" alt="<?php echo $contacto_fields['imagen_2']['alt'] ?>">
 			</div>
-			<div class="rounded-[20px] h-[343px]">
+			<div class="rounded-[20px] h-[343px] overflow-clip">
 				<img class="w-full h-full object-cover" src="<?php echo $contacto_fields['imagen_3']['url'] ?>" alt="<?php echo $contacto_fields['imagen_3']['alt'] ?>">
 			</div>
-			<div class="md:col-span-2 rounded-[20px] h-[343px]">
+			<div class="md:col-span-2 rounded-[20px] overflow-clip h-[343px]">
 				<img class="w-full h-full object-cover" src="<?php echo $contacto_fields['imagen_4']['url'] ?>" alt="<?php echo $contacto_fields['imagen_4']['alt'] ?>">
 			</div>
 		</div>
