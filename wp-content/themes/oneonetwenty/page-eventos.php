@@ -6,8 +6,6 @@ $propuestas_fields = get_field('propuestas');
 $contacto_fields = get_field('contacto');
 $formulario_fields = get_fields('formulario');
 
-print_r($formulario_fields);
-
 get_header(); ?>
 
 <!-- Hero -->
@@ -136,7 +134,7 @@ get_header(); ?>
 <section class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.webp')]">
 	<div class="tcp-container">
 		<h2 class="max-w-[1100px] text-center mx-auto font-black text-[32px] md:text-[80px] text-white leading-[90%] md:leading-[73px]">
-			<?php echo $formulario_fields['titulo'] ?>
+			H<?php echo $formulario_fields['titulo'] ?>
 		</h2>
 		<div class="grid md:grid-cols-2 mt-8 md:mt-0">
 			<img class="w-full md:w-[644px] h-auto md:h-[577px]" src="<?php echo $formulario_fields['imagen']['url'] ?>" alt="<?php echo $formulario_fields['imagen']['alt'] ?>">
