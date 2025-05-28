@@ -137,8 +137,8 @@ get_header(); ?>
 			<?php echo $formulario_fields['titulo'] ?>
 		</h2>
 		<div class="grid md:grid-cols-2 mt-8 md:mt-0">
-			<img class="w-full md:w-[644px] h-auto md:h-[577px]" src="<?php echo $formulario_fields['imagen']['url'] ?>" alt="<?php echo $formulario_fields['imagen']['alt'] ?>">
-			<div class="md:order-none -order-1 ky-eventos-form">
+			<img class="w-full md:w-[644px] h-auto md:h-[577px] object-cover" src="<?php echo $formulario_fields['imagen']['url'] ?>" alt="<?php echo $formulario_fields['imagen']['alt'] ?>">
+			<div class="md:order-none -order-1 ky-eventos-form pt-6">
 				<?php echo do_shortcode('[contact-form-7 id="cba1be0" title="Contact form 1"]') ?>
 			</div>
 		</div>
