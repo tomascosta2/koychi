@@ -52,7 +52,7 @@ get_header(); ?>
 	?>		
 		<div class="relative z-50 max-w-[860px] <?php echo $i % 2 === 0 ? '-rotate-[1.6deg]' : '-rotate-[0.24deg]' ?> mx-auto py-8 md:py-4 bg-black px-4">
 			<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]"><?php echo $creencia['titulo']; ?></h3>
-			<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]"><?php echo $creencia['texto']; ?></p>
+			<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]"><?php echo $creencia['bajada']; ?></p>
 		</div>
 	<?php endforeach; ?>
 </section>
