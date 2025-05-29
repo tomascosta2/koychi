@@ -28,7 +28,8 @@ get_header(); ?>
 		<p class="py-4 text-[24px] hover:rotate-1 transition-all leading-[100%] md:text-[32px] md:leading-[34px] max-w-[940px] mx-auto text-black px-8 md:px-[100px] bg-[#FEC600]">
 			<?php echo strip_tags($info_fields['bajada'], '<strong>') ?>
 		</p>
-		<div class="bg-black hover:-rotate-1 transition-all max-w-[940px] mx-auto mt-[57px] p-8 md:px-[90px]">
+		<div class="bg-black hover:-rotate-1 transition-all max-w-[940px] mx-auto mt-[57px] p-8 md:px-[90px] relative">
+			<img class="absolute -left-[50px] top-[58px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-estampillas.png" alt="Estampillas Koychi">
 			<h3 class="text-white text-center font-black uppercase text-[32px] leading-[90%] md:text-[48px] md:leading-[64px] mb-8">
 				<?php echo $info_fields['titulo_2'] ?>
 			</h3>
