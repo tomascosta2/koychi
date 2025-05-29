@@ -45,7 +45,7 @@ get_header(); ?>
 <section class="py-[80px] md:px-0 px-4"> 
 	<div class="relative">
 		<img class="absolute -top-4 md:-top-[60px] md:left-[calc(50%-620px)] w-full max-w-[1240px] mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/eventos-creemos-fondo.webp" alt="Fondo">
-		<h2 class="text-center pt-6 pb-10 mb-4 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.webp')] font-black -rotate-2 hover:rotate-0 transition-all uppercase max-w-[300px] md:max-w-[880px] mx-auto text-[32px] leading-[90%] md:text-[110px] md:leading-[113px]">
+		<h2 class="text-center pt-6 pb-10 mb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.webp')] font-black -rotate-2 hover:rotate-0 transition-all uppercase max-w-[300px] md:max-w-[880px] mx-auto text-[32px] leading-[90%] md:text-[110px] md:leading-[113px]">
 			<?php echo $creencias_fields['titulo_principal'] ?>
 		</h2>
 	</div>
@@ -67,7 +67,7 @@ get_header(); ?>
 		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-paraquien.webp')] font-black rotate-2 hover:rotate-0 transition-all uppercase max-w-[1030px] mx-auto text-white text-[28px] md:text-[110px] leading-[80%]">
 			<?php echo $propuestas_fields['titulo']; ?>
 		</h2>
-		<div class="grid md:grid-cols-3 gap-x-[40px] gap-y-[30px]">
+		<div class="grid md:grid-cols-3 gap-x-[40px] gap-y-[30px] mt-8">
 			<?php foreach ($propuestas_fields['lista_de_propuestas'] as $propuesta) :  ?>
 				<div class="bg-[#FF0000] hover:scale-[105%] transition-all p-8 rounded-[20px]">
 					<img class="h-[60px] w-auto mx-auto" src="<?php echo $propuesta['icono']['url']; ?>" alt="<?php echo $propuesta['icono']['alt']; ?>">
