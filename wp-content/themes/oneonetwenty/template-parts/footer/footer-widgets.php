@@ -14,7 +14,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 			<div class="tcp-footer__wrapper grid md:grid-cols-3">
 				<?php dynamic_sidebar( 'sidebar-1' ); ?>
 			</div>
-			<p class="text-[14px] text-white/80 text-center mt-8">© 2025 KOYCHI. Todos los derechos reservados. <a href="www.abla.la">Sitio Web desarrollado por ABLA</a></p>
+			<p class="text-[14px] text-white/80 text-center mt-8">© 2025 KOYCHI. Todos los derechos reservados. <a href="www.abla.la" target="_blank">Sitio Web desarrollado por ABLA</a></p>
 		</div>
 	</footer>
 
