@@ -132,7 +132,7 @@ get_header(); ?>
 	</div>
 </section>
 
-<section class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.webp')]">
+<section id="contacto" class="pt-[80px] bg-cover bg-[url('/wp-content/themes/oneonetwenty/assets/images/eventos-fondo-contacto.webp')]">
 	<div class="tcp-container">
 		<h2 class="max-w-[1100px] text-center mx-auto font-black text-[32px] md:text-[80px] text-white leading-[90%] md:leading-[73px]">
 			<?php echo $formulario_fields['titulo'] ?>
