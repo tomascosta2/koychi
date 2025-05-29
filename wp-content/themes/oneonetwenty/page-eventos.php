@@ -29,7 +29,7 @@ get_header(); ?>
 			<?php echo strip_tags($info_fields['bajada'], '<strong>') ?>
 		</p>
 		<div class="bg-black hover:-rotate-1 transition-all max-w-[940px] mx-auto mt-[57px] p-8 md:px-[90px] relative">
-			<img class="absolute -left-[50px] top-[58px]" src="/wp-content/themes/oneonetwenty/assets/images/eventos-estampillas.png" alt="Estampillas Koychi">
+			<img class="absolute -left-[55px] top-[62px] hidden md:block" src="/wp-content/themes/oneonetwenty/assets/images/eventos-estampillas.png" alt="Estampillas Koychi">
 			<h3 class="text-white text-center font-black uppercase text-[32px] leading-[90%] md:text-[48px] md:leading-[64px] mb-8">
 				<?php echo $info_fields['titulo_2'] ?>
 			</h3>
@@ -45,7 +45,7 @@ get_header(); ?>
 <section class="py-[80px] md:px-0 px-4"> 
 	<div class="relative">
 		<img class="absolute -top-4 md:-top-[60px] md:left-[calc(50%-620px)] w-full max-w-[1240px] mx-auto" src="/wp-content/themes/oneonetwenty/assets/images/eventos-creemos-fondo.webp" alt="Fondo">
-		<h2 class="text-center pt-6 pb-10 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.webp')] font-black -rotate-2 hover:rotate-0 transition-all uppercase max-w-[300px] md:max-w-[880px] mx-auto text-[32px] leading-[90%] md:text-[110px] md:leading-[113px]">
+		<h2 class="text-center pt-6 pb-10 mb-4 bg-no-repeat bg-contain bg-[url('/wp-content/themes/oneonetwenty/assets/images/papel-fondo-titulo-creemos.webp')] font-black -rotate-2 hover:rotate-0 transition-all uppercase max-w-[300px] md:max-w-[880px] mx-auto text-[32px] leading-[90%] md:text-[110px] md:leading-[113px]">
 			<?php echo $creencias_fields['titulo_principal'] ?>
 		</h2>
 	</div>
@@ -54,7 +54,7 @@ get_header(); ?>
 	foreach ($creencias_fields['lista_de_creencias'] as $creencia) : 
 		$i++;
 	?>		
-		<div class="relative z-50 max-w-[860px] mb-8 <?php echo $i % 2 === 0 ? '-rotate-[1.6deg]' : '-rotate-[0.24deg]' ?> mx-auto hover:rotate-0 transition-all py-8 md:py-4 bg-black px-4">
+		<div class="relative z-50 max-w-[860px] mb-8 <?php echo $i % 2 == 0 ? 'rotate-[1.6deg]' : 'rotate-[0.24deg]' ?> mx-auto hover:rotate-0 transition-all py-8 md:py-4 bg-black px-4">
 			<h3 class="text-[#FF0000] font-bold text-center text-[28px] md:text-[48px] leading-[100%] md:leading-[40px]"><?php echo $creencia['titulo']; ?></h3>
 			<p class="text-white text-center md:text-[32px] leading-[40px] text-[22px] leading-[110%]"><?php echo strip_tags($creencia['bajada']); ?></p>
 		</div>
